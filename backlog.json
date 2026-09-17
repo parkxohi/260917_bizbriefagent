@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "vercel-setup",
+      "title": "Vercel 프로젝트 스캐폴딩 + Cron 설정",
+      "category": "infra",
+      "priority": "high",
+      "status": "todo",
+      "deps": [],
+      "done_when": "package.json, vercel.json(crons 08:00) 생성 및 로컬에서 구조 확인"
+    },
+    {
+      "id": "data-lib",
+      "title": "데이터 접근 모듈 (lib/data.js) - data/*.json 로드",
+      "category": "backend",
+      "priority": "high",
+      "status": "todo",
+      "deps": ["vercel-setup"],
+      "done_when": "sales/production/capa/inventory json을 읽어 구조화된 객체로 반환하는 함수 작성"
+    },
+    {
+      "id": "kpi-logic",
+      "title": "KPI 계산 + 이상징후 판단 로직 (lib/kpi.js)",
+      "category": "backend",
+      "priority": "high",
+      "status": "todo",
+      "deps": ["data-lib"],
+      "done_when": "4개 KPI % 계산과 과제정의서에 명시된 임계값(±5%p, 90%, 5%) 판정 함수 작성, 데이터-로직 분리 준수"
+    },
+    {
+      "id": "email-template",
+      "title": "이메일 템플릿 실제 코드화 (lib/emailTemplate.js)",
+      "category": "backend",
+      "priority": "high",
+      "status": "todo",
+      "deps": ["kpi-logic"],
+      "done_when": "Final.dc.html 디자인(블랙골드)을 kpi-logic 결과 기반으로 동적 생성하는 HTML 문자열 함수 작성"
+    },
+    {
+      "id": "send-api",
+      "title": "발송 API + Nodemailer 연동 (api/send-daily-briefing.js)",
+      "category": "backend",
+      "priority": "high",
+      "status": "todo",
+      "deps": ["email-template"],
+      "done_when": "SMTP 앱 비밀번호로 실제 발송 가능한 서버리스 함수 작성, .env.example 포함, 로컬 스크립트로 수동 발송 테스트 가능"
+    },
+    {
+      "id": "dashboard-page",
+      "title": "경영정보 대시보드 실제 페이지 (public/dashboard.html)",
+      "category": "frontend",
+      "priority": "medium",
+      "status": "todo",
+      "deps": ["kpi-logic"],
+      "done_when": "Dashboard.dc.html 디자인을 접근성 원칙(실제 button/label) 지켜 정적 페이지로 포팅"
+    },
+    {
+      "id": "mail-admin-pages",
+      "title": "메일링 관리 화면 실제 페이지 (public/admin/*.html)",
+      "category": "frontend",
+      "priority": "low",
+      "status": "todo",
+      "deps": ["send-api"],
+      "done_when": "발송하기/발송스케줄/수신처관리 3개 화면을 실제 정적 페이지로 포팅, 발송하기는 send-api 연동"
+    },
+    {
+      "id": "supabase-setup",
+      "title": "Supabase 수신처 테이블 (선택)",
+      "category": "backend",
+      "priority": "low",
+      "status": "todo",
+      "deps": ["mail-admin-pages"],
+      "done_when": "recipients 테이블 스키마 정의 및 클라이언트 연결 코드 작성 (실 데이터 마이그레이션은 사용자 선택)"
+    }
+  ]
+}
