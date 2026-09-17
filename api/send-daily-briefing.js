@@ -3,6 +3,7 @@
 require("dotenv").config();
 const { buildTodaysEmail } = require("../lib/briefing");
 const { sendBriefingEmail } = require("../lib/mailer");
+const { appendHistory } = require("../lib/sendHistory");
 
 module.exports = async function handler(req, res) {
   // Vercel Cron이 보내는 요청인지 확인(수동 테스트 시에는 없어도 되지만,
@@ -19,6 +20,7 @@ module.exports = async function handler(req, res) {
   try {
     const { subject, html } = buildTodaysEmail({ dashboardUrl: process.env.DASHBOARD_URL });
     const result = await sendBriefingEmail({ subject, html });
+    appendHistory({ sentAt: new Date().toISOString(), status: "success", recipients: result.recipients });
     res.status(200).json({ ok: true, subject, ...result });
   } catch (err) {
     res.status(500).json({ ok: false, error: err.message });
