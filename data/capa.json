@@ -1,674 +1,674 @@
 [
   {
     "date": "2026-09-01",
-    "shift": "주간",
+    "shift": "야간",
     "line": "A2",
-    "qty": 12587,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1095187,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-01",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 10224,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-02",
     "shift": "주간",
     "line": "A2",
-    "qty": 11641,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1347673,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-02",
     "shift": "야간",
     "line": "A2",
-    "qty": 8979,
-    "monthly_capa_qty_shift": 200000
+    "qty": 961019,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 1244603,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 1068113,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-03",
     "shift": "주간",
     "line": "A2",
-    "qty": 12579,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-03",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 10095,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-04",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 12315,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1339074,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-04",
     "shift": "야간",
     "line": "A2",
-    "qty": 9969,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1064758,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 1314674,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 740204,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-05",
     "shift": "주간",
     "line": "A2",
-    "qty": 8817,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-05",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 6988,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-06",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 8132,
-    "monthly_capa_qty_shift": 200000
+    "qty": 935808,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-06",
     "shift": "야간",
     "line": "A2",
-    "qty": 6341,
-    "monthly_capa_qty_shift": 200000
+    "qty": 671647,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 866591,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 1044554,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-07",
     "shift": "주간",
     "line": "A2",
-    "qty": 13126,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-07",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 9838,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-08",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 11381,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1393080,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-08",
     "shift": "야간",
     "line": "A2",
-    "qty": 9938,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1052895,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 1198231,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 1145999,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-09",
     "shift": "주간",
     "line": "A2",
-    "qty": 12286,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-09",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 10694,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-10",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 11961,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1316690,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-10",
     "shift": "야간",
     "line": "A2",
-    "qty": 8784,
-    "monthly_capa_qty_shift": 200000
+    "qty": 936414,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 1278921,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 939068,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-11",
     "shift": "주간",
     "line": "A2",
-    "qty": 10772,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-11",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 8891,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-12",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 8812,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1141494,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-12",
     "shift": "야간",
     "line": "A2",
-    "qty": 6977,
-    "monthly_capa_qty_shift": 200000
+    "qty": 735305,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "qty": 935014,
+    "monthly_capa_qty_shift": 19250000
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "qty": 661463,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-13",
     "shift": "주간",
     "line": "A2",
-    "qty": 8490,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-13",
-    "shift": "야간",
-    "line": "A2",
-    "qty": 6202,
-    "monthly_capa_qty_shift": 200000
-  },
-  {
-    "date": "2026-09-14",
-    "shift": "주간",
-    "line": "A2",
-    "qty": 10513,
-    "monthly_capa_qty_shift": 200000
+    "qty": 907425,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-14",
     "shift": "야간",
     "line": "A2",
-    "qty": 8357,
-    "monthly_capa_qty_shift": 200000
+    "qty": 887432,
+    "monthly_capa_qty_shift": 19250000
   },
   {
-    "date": "2026-09-15",
+    "date": "2026-09-14",
     "shift": "주간",
     "line": "A2",
-    "qty": 11384,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1114971,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-15",
     "shift": "야간",
     "line": "A2",
-    "qty": 9510,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1013459,
+    "monthly_capa_qty_shift": 19250000
   },
   {
-    "date": "2026-09-16",
+    "date": "2026-09-15",
     "shift": "주간",
     "line": "A2",
-    "qty": 25700,
-    "monthly_capa_qty_shift": 200000
+    "qty": 1216845,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-16",
     "shift": "야간",
     "line": "A2",
-    "qty": 18793,
-    "monthly_capa_qty_shift": 200000
+    "qty": 2011317,
+    "monthly_capa_qty_shift": 19250000
   },
   {
-    "date": "2026-09-01",
+    "date": "2026-09-16",
     "shift": "주간",
-    "line": "A3",
-    "qty": 5425,
-    "monthly_capa_qty_shift": 150000
+    "line": "A2",
+    "qty": 2761472,
+    "monthly_capa_qty_shift": 19250000
   },
   {
     "date": "2026-09-01",
     "shift": "야간",
     "line": "A3",
-    "qty": 4907,
-    "monthly_capa_qty_shift": 150000
+    "qty": 645403,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 712520,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 544579,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-02",
     "shift": "주간",
     "line": "A3",
-    "qty": 5038,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-02",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 4140,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-03",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 4727,
-    "monthly_capa_qty_shift": 150000
+    "qty": 661532,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-03",
     "shift": "야간",
     "line": "A3",
-    "qty": 4080,
-    "monthly_capa_qty_shift": 150000
+    "qty": 537534,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 623783,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 617463,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-04",
     "shift": "주간",
     "line": "A3",
-    "qty": 4994,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-04",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 4692,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-05",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 3436,
-    "monthly_capa_qty_shift": 150000
+    "qty": 654312,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-05",
     "shift": "야간",
     "line": "A3",
-    "qty": 2896,
-    "monthly_capa_qty_shift": 150000
+    "qty": 377743,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 447200,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 366520,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-06",
     "shift": "주간",
     "line": "A3",
-    "qty": 3069,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-06",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 2797,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-07",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 4903,
-    "monthly_capa_qty_shift": 150000
+    "qty": 402633,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-07",
     "shift": "야간",
     "line": "A3",
-    "qty": 4042,
-    "monthly_capa_qty_shift": 150000
+    "qty": 532238,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 645734,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 426643,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-08",
     "shift": "주간",
     "line": "A3",
-    "qty": 4590,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-08",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 3283,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-09",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 5352,
-    "monthly_capa_qty_shift": 150000
+    "qty": 599987,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-09",
     "shift": "야간",
     "line": "A3",
-    "qty": 4878,
-    "monthly_capa_qty_shift": 150000
+    "qty": 646124,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 707483,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 567530,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-10",
     "shift": "주간",
     "line": "A3",
-    "qty": 4788,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-10",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 4326,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-11",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 3995,
-    "monthly_capa_qty_shift": 150000
+    "qty": 626576,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-11",
     "shift": "야간",
     "line": "A3",
-    "qty": 3391,
-    "monthly_capa_qty_shift": 150000
+    "qty": 444580,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 523395,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 353357,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-12",
     "shift": "주간",
     "line": "A3",
-    "qty": 3275,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-12",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 2704,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-13",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 3670,
-    "monthly_capa_qty_shift": 150000
+    "qty": 428071,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-13",
     "shift": "야간",
     "line": "A3",
-    "qty": 2676,
-    "monthly_capa_qty_shift": 150000
+    "qty": 350905,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 483828,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "qty": 433334,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-14",
     "shift": "주간",
     "line": "A3",
-    "qty": 4144,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-14",
-    "shift": "야간",
-    "line": "A3",
-    "qty": 3305,
-    "monthly_capa_qty_shift": 150000
-  },
-  {
-    "date": "2026-09-15",
-    "shift": "주간",
-    "line": "A3",
-    "qty": 4660,
-    "monthly_capa_qty_shift": 150000
+    "qty": 543203,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-15",
     "shift": "야간",
     "line": "A3",
-    "qty": 4303,
-    "monthly_capa_qty_shift": 150000
+    "qty": 568015,
+    "monthly_capa_qty_shift": 10000000
   },
   {
-    "date": "2026-09-16",
+    "date": "2026-09-15",
     "shift": "주간",
     "line": "A3",
-    "qty": 11078,
-    "monthly_capa_qty_shift": 150000
+    "qty": 611165,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-16",
     "shift": "야간",
     "line": "A3",
-    "qty": 9168,
-    "monthly_capa_qty_shift": 150000
+    "qty": 1212453,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "qty": 1461557,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 471053,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-01",
     "shift": "주간",
     "line": "A4",
-    "qty": 9432,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-01",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 6701,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-02",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 8445,
-    "monthly_capa_qty_shift": 100000
+    "qty": 655794,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-02",
     "shift": "야간",
     "line": "A4",
-    "qty": 6436,
-    "monthly_capa_qty_shift": 100000
+    "qty": 456163,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 600054,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 481229,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-03",
     "shift": "주간",
     "line": "A4",
-    "qty": 8008,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-03",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 6718,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-04",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 9158,
-    "monthly_capa_qty_shift": 100000
+    "qty": 571023,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-04",
     "shift": "야간",
     "line": "A4",
-    "qty": 7535,
-    "monthly_capa_qty_shift": 100000
+    "qty": 545628,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 669458,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 373263,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-05",
     "shift": "주간",
     "line": "A4",
-    "qty": 5743,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-05",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 5064,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-06",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 5484,
-    "monthly_capa_qty_shift": 100000
+    "qty": 420147,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-06",
     "shift": "야간",
     "line": "A4",
-    "qty": 5023,
-    "monthly_capa_qty_shift": 100000
+    "qty": 369666,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 407561,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 515277,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-07",
     "shift": "주간",
     "line": "A4",
-    "qty": 8446,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-07",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 7067,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-08",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 7804,
-    "monthly_capa_qty_shift": 100000
+    "qty": 611301,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-08",
     "shift": "야간",
     "line": "A4",
-    "qty": 6183,
-    "monthly_capa_qty_shift": 100000
+    "qty": 463335,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 576786,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 553228,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-09",
     "shift": "주간",
     "line": "A4",
-    "qty": 10160,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-09",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 7587,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-10",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 8192,
-    "monthly_capa_qty_shift": 100000
+    "qty": 726233,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-10",
     "shift": "야간",
     "line": "A4",
-    "qty": 6771,
-    "monthly_capa_qty_shift": 100000
+    "qty": 482851,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 589848,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 387045,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-11",
     "shift": "주간",
     "line": "A4",
-    "qty": 7472,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-11",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 5280,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-12",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 5847,
-    "monthly_capa_qty_shift": 100000
+    "qty": 544514,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-12",
     "shift": "야간",
     "line": "A4",
-    "qty": 4898,
-    "monthly_capa_qty_shift": 100000
+    "qty": 367423,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 432134,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "qty": 330699,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-13",
     "shift": "주간",
     "line": "A4",
-    "qty": 5911,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-13",
-    "shift": "야간",
-    "line": "A4",
-    "qty": 4655,
-    "monthly_capa_qty_shift": 100000
-  },
-  {
-    "date": "2026-09-14",
-    "shift": "주간",
-    "line": "A4",
-    "qty": 7520,
-    "monthly_capa_qty_shift": 100000
+    "qty": 425995,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-14",
     "shift": "야간",
     "line": "A4",
-    "qty": 5849,
-    "monthly_capa_qty_shift": 100000
+    "qty": 433960,
+    "monthly_capa_qty_shift": 10000000
   },
   {
-    "date": "2026-09-15",
+    "date": "2026-09-14",
     "shift": "주간",
     "line": "A4",
-    "qty": 8447,
-    "monthly_capa_qty_shift": 100000
+    "qty": 555816,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-15",
     "shift": "야간",
     "line": "A4",
-    "qty": 7533,
-    "monthly_capa_qty_shift": 100000
+    "qty": 552201,
+    "monthly_capa_qty_shift": 10000000
   },
   {
-    "date": "2026-09-16",
+    "date": "2026-09-15",
     "shift": "주간",
     "line": "A4",
-    "qty": 18806,
-    "monthly_capa_qty_shift": 100000
+    "qty": 622005,
+    "monthly_capa_qty_shift": 10000000
   },
   {
     "date": "2026-09-16",
     "shift": "야간",
     "line": "A4",
-    "qty": 15005,
-    "monthly_capa_qty_shift": 100000
+    "qty": 1078990,
+    "monthly_capa_qty_shift": 10000000
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "qty": 1329320,
+    "monthly_capa_qty_shift": 10000000
   }
 ]
