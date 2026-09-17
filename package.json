@@ -5,6 +5,7 @@
   "description": "Biz Briefing Agent - AI Daily Briefing capstone (KPI 이메일 발송 + Biz Insight 대시보드)",
   "type": "commonjs",
   "scripts": {
+    "dev": "node scripts/dev-server.js",
     "send:now": "node scripts/send-now.js",
     "backlog": "node scripts/backlog-cli.cjs"
   },
