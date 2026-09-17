@@ -100,11 +100,12 @@
       "title": "개발 마무리 후 전체 정리",
       "category": "docs",
       "priority": "medium",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "mail-admin-pages"
       ],
-      "done_when": "과제정의서에 최종 구조/실행방법/남은 이슈 정리, README 작성"
+      "done_when": "과제정의서에 최종 구조/실행방법/남은 이슈 정리, README 작성",
+      "note": "README.md 작성 완료(구조/실행법/KPI기준/배포/로드맵/참고링크)"
     },
     {
       "id": "presentation-deck",
