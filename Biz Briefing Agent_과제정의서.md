@@ -180,6 +180,8 @@
   - 좌측 상단 "Biz Insight" 로고가 클릭 불가능한 텍스트였던 것을 대시보드로 이동하는 링크로 수정(`public/dashboard.html`, `public/admin/*.html` 4개 파일 전부).
   - 공유 스냅샷 아티팩트(https://claude.ai/artifact/RebQqwZ94TXPyXtW6GcESe)에서 "메일링 관리 → Dashboard" 이동 시 "Couldn't find this Artifact's content" 에러가 나던 원인 파악: 번들 내 실제 파일명은 `index.html`인데 send/schedule/recipients 미리보기 3개 화면의 nav 링크가 옛 파일명 `dashboard-preview.html`을 가리키고 있었음(과거 republish 시 root 파일명이 바뀌면서 발생). 4개 파일 모두 `index.html`로 링크 정정 + 로고 링크 추가 + 이메일 미리보기(테이블 레이아웃)까지 최신 코드로 재동기화해 재발행.
 
+- **모바일 반응형 대응 (2026-09-17)**: 공유 스냅샷을 모바일에서 열면 대시보드가 잘려 보인다는 피드백. 원인은 대시보드 그리드가 664px 고정폭(2열)이었던 것 — 700px 이하 화면에서 1열로 전환되는 미디어쿼리 추가로 해결. 메일링 관리 3개 화면도 여백을 줄이고 발송 이력/수신처 표는 좁은 화면에서 가로 스크롤로 전환. 실제 앱(`public/*`)과 공유 아티팩트 양쪽에 동일 적용.
+
 **미결 질문 (진행 중)**
 - 대시보드 접근에 로그인/인증이 필요한지, 아니면 시연용 공개 링크로 충분한지 — 미정.
 
