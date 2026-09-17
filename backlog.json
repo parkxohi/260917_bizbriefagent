@@ -28,11 +28,12 @@
       "title": "KPI 계산 + 이상징후 판단 로직 (lib/kpi.js)",
       "category": "backend",
       "priority": "high",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "data-lib"
       ],
-      "done_when": "4개 KPI % 계산과 과제정의서에 명시된 임계값(±5%p, 90%, 5%) 판정 함수 작성, 데이터-로직 분리 준수"
+      "done_when": "4개 KPI % 계산과 과제정의서에 명시된 임계값(±5%p, 90%, 5%) 판정 함수 작성, 데이터-로직 분리 준수",
+      "note": "lib/kpi.js 작성, 실제 데이터로 검증 완료 - 기존 디자인 수치와 정확히 일치"
     },
     {
       "id": "email-template",
