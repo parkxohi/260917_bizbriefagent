@@ -111,11 +111,12 @@
       "title": "발표자료 구성",
       "category": "docs",
       "priority": "medium",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "wrap-up-summary"
       ],
-      "done_when": "capstone 발표용 슬라이드/자료 초안 완성"
+      "done_when": "capstone 발표용 슬라이드/자료 초안 완성",
+      "note": "Haiku 서브에이전트 병렬 실행으로 4페이지 슬라이드 제작 완료: https://claude.ai/artifact/VWCGF8Wd5JHuq7MAtCeg4g"
     },
     {
       "id": "demo-script-test",
