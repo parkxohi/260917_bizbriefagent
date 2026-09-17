@@ -80,6 +80,10 @@ const DAYS_IN_MONTH = 30;
 const ELAPSED = 16;
 const STANDARD_PCT = (ELAPSED / DAYS_IN_MONTH) * 100;
 
+function formatM(qty) {
+  return (qty / 1_000_000).toLocaleString("ko-KR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "M";
+}
+
 function miniDonut(pct, big, tierColored) {
   const dim = big ? 84 : 54;
   const r = big ? 34 : 21;
@@ -142,7 +146,7 @@ function renderSalesCard(sales, trend) {
       </div>
 
       <span class="section-label" style="margin-top: auto;">TOP3 판매실적</span>
-      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product}</span><span class="qty num">${p.qty.toLocaleString("ko-KR")}개</span></div>`).join("")}
+      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product}</span><span class="qty num">${formatM(p.qty)} (${p.pct}%)</span></div>`).join("")}
     </div>`;
 }
 
@@ -171,7 +175,7 @@ function renderProductionCard(production, trend) {
       </div>
 
       <span class="section-label" style="margin-top: auto;">TOP3 생산실적</span>
-      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product_type}</span><span class="qty num">${p.qty.toLocaleString("ko-KR")}개</span></div>`).join("")}
+      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product_type}</span><span class="qty num">${formatM(p.qty)} (${p.pct}%)</span></div>`).join("")}
     </div>`;
 }
 
