@@ -40,11 +40,12 @@
       "title": "이메일 템플릿 실제 코드화 (lib/emailTemplate.js)",
       "category": "backend",
       "priority": "high",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "kpi-logic"
       ],
-      "done_when": "Final.dc.html 디자인(블랙골드)을 kpi-logic 결과 기반으로 동적 생성하는 HTML 문자열 함수 작성"
+      "done_when": "Final.dc.html 디자인(블랙골드)을 kpi-logic 결과 기반으로 동적 생성하는 HTML 문자열 함수 작성",
+      "note": "lib/emailTemplate.js 작성, briefing 데이터 기반으로 4824바이트 HTML 생성 검증 완료"
     },
     {
       "id": "send-api",
