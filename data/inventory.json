@@ -1,309 +1,1101 @@
 [
   {
     "product": "아이폰18",
-    "lots": [
-      {
-        "production_date": "2026-09-14",
-        "remaining_qty": 630
-      },
-      {
-        "production_date": "2026-08-13",
-        "remaining_qty": 378
-      },
-      {
-        "production_date": "2026-07-29",
-        "remaining_qty": 36
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0000",
+    "production_date": "2026-06-02",
+    "remaining_qty": 1047
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0001",
+    "production_date": "2026-08-18",
+    "remaining_qty": 5139
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0002",
+    "production_date": "2026-08-08",
+    "remaining_qty": 5152
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0003",
+    "production_date": "2026-09-15",
+    "remaining_qty": 5147
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0004",
+    "production_date": "2026-08-10",
+    "remaining_qty": 5153
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0005",
+    "production_date": "2026-09-15",
+    "remaining_qty": 5137
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0006",
+    "production_date": "2026-08-20",
+    "remaining_qty": 5139
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0007",
+    "production_date": "2026-08-18",
+    "remaining_qty": 5140
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0008",
+    "production_date": "2026-09-13",
+    "remaining_qty": 5143
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0009",
+    "production_date": "2026-08-23",
+    "remaining_qty": 5145
+  },
+  {
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0010",
+    "production_date": "2026-09-03",
+    "remaining_qty": 5149
   },
   {
     "product": "아이폰18 프로",
-    "lots": [
-      {
-        "production_date": "2026-09-10",
-        "remaining_qty": 700
-      },
-      {
-        "production_date": "2026-08-20",
-        "remaining_qty": 150
-      },
-      {
-        "production_date": "2026-06-15",
-        "remaining_qty": 150
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0000",
+    "production_date": "2026-06-27",
+    "remaining_qty": 9117
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0001",
+    "production_date": "2026-08-30",
+    "remaining_qty": 5742
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0002",
+    "production_date": "2026-08-31",
+    "remaining_qty": 5731
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0003",
+    "production_date": "2026-08-17",
+    "remaining_qty": 5729
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0004",
+    "production_date": "2026-08-13",
+    "remaining_qty": 5730
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0005",
+    "production_date": "2026-08-25",
+    "remaining_qty": 5736
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0006",
+    "production_date": "2026-09-12",
+    "remaining_qty": 5749
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0007",
+    "production_date": "2026-09-14",
+    "remaining_qty": 5729
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0008",
+    "production_date": "2026-09-01",
+    "remaining_qty": 5735
+  },
+  {
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0009",
+    "production_date": "2026-09-15",
+    "remaining_qty": 5748
   },
   {
     "product": "아이폰18 듀오",
-    "lots": [
-      {
-        "production_date": "2026-09-10",
-        "remaining_qty": 833
-      },
-      {
-        "production_date": "2026-08-16",
-        "remaining_qty": 246
-      },
-      {
-        "production_date": "2026-07-04",
-        "remaining_qty": 26
-      },
-      {
-        "production_date": "2026-08-04",
-        "remaining_qty": 46
-      },
-      {
-        "production_date": "2026-08-07",
-        "remaining_qty": 77
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0000",
+    "production_date": "2026-07-03",
+    "remaining_qty": 817
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0001",
+    "production_date": "2026-08-17",
+    "remaining_qty": 5018
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0002",
+    "production_date": "2026-08-11",
+    "remaining_qty": 5021
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0003",
+    "production_date": "2026-08-18",
+    "remaining_qty": 5023
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0004",
+    "production_date": "2026-08-24",
+    "remaining_qty": 5020
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0005",
+    "production_date": "2026-08-09",
+    "remaining_qty": 5034
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0006",
+    "production_date": "2026-09-09",
+    "remaining_qty": 5020
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0007",
+    "production_date": "2026-08-28",
+    "remaining_qty": 5018
+  },
+  {
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "lot_id": "LOT-아이폰-0008",
+    "production_date": "2026-08-10",
+    "remaining_qty": 5015
   },
   {
     "product": "갤럭시Z폴드8",
-    "lots": [
-      {
-        "production_date": "2026-09-11",
-        "remaining_qty": 797
-      },
-      {
-        "production_date": "2026-08-27",
-        "remaining_qty": 306
-      },
-      {
-        "production_date": "2026-07-04",
-        "remaining_qty": 74
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-06-12",
+    "remaining_qty": 2260
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-08-23",
+    "remaining_qty": 3730
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-09-04",
+    "remaining_qty": 3720
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-10",
+    "remaining_qty": 3738
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-09-01",
+    "remaining_qty": 3721
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-08-28",
+    "remaining_qty": 3737
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-09-09",
+    "remaining_qty": 3736
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-09-14",
+    "remaining_qty": 3729
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0008",
+    "production_date": "2026-08-13",
+    "remaining_qty": 3731
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0009",
+    "production_date": "2026-08-24",
+    "remaining_qty": 3720
   },
   {
     "product": "갤럭시S26",
-    "lots": [
-      {
-        "production_date": "2026-09-10",
-        "remaining_qty": 652
-      },
-      {
-        "production_date": "2026-08-10",
-        "remaining_qty": 384
-      },
-      {
-        "production_date": "2026-07-03",
-        "remaining_qty": 59
-      },
-      {
-        "production_date": "2026-07-13",
-        "remaining_qty": 66
-      },
-      {
-        "production_date": "2026-06-29",
-        "remaining_qty": 33
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-06-07",
+    "remaining_qty": 7368
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-09-16",
+    "remaining_qty": 4408
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-08-16",
+    "remaining_qty": 4398
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-20",
+    "remaining_qty": 4406
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-08-18",
+    "remaining_qty": 4399
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-08-20",
+    "remaining_qty": 4400
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-08-14",
+    "remaining_qty": 4415
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-08-30",
+    "remaining_qty": 4414
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0008",
+    "production_date": "2026-08-13",
+    "remaining_qty": 4410
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0009",
+    "production_date": "2026-08-18",
+    "remaining_qty": 4408
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0010",
+    "production_date": "2026-08-10",
+    "remaining_qty": 4403
+  },
+  {
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0011",
+    "production_date": "2026-08-27",
+    "remaining_qty": 4402
   },
   {
     "product": "갤럭시Z플립8",
-    "lots": [
-      {
-        "production_date": "2026-09-09",
-        "remaining_qty": 697
-      },
-      {
-        "production_date": "2026-08-24",
-        "remaining_qty": 281
-      },
-      {
-        "production_date": "2026-08-01",
-        "remaining_qty": 55
-      },
-      {
-        "production_date": "2026-07-09",
-        "remaining_qty": 69
-      }
-    ]
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-07-01",
+    "remaining_qty": 3006
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-09-01",
+    "remaining_qty": 6387
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-08-11",
+    "remaining_qty": 6392
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-23",
+    "remaining_qty": 6383
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-09-15",
+    "remaining_qty": 6388
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-08-27",
+    "remaining_qty": 6378
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-08-16",
+    "remaining_qty": 6379
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-08-25",
+    "remaining_qty": 6381
   },
   {
     "product": "아이패드 프로",
-    "lots": [
-      {
-        "production_date": "2026-09-11",
-        "remaining_qty": 628
-      },
-      {
-        "production_date": "2026-08-21",
-        "remaining_qty": 231
-      },
-      {
-        "production_date": "2026-07-26",
-        "remaining_qty": 60
-      },
-      {
-        "production_date": "2026-06-25",
-        "remaining_qty": 49
-      },
-      {
-        "production_date": "2026-06-22",
-        "remaining_qty": 49
-      }
-    ]
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0000",
+    "production_date": "2026-07-01",
+    "remaining_qty": 2426
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0001",
+    "production_date": "2026-08-30",
+    "remaining_qty": 2541
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0002",
+    "production_date": "2026-09-16",
+    "remaining_qty": 2540
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0003",
+    "production_date": "2026-09-04",
+    "remaining_qty": 2526
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0004",
+    "production_date": "2026-09-01",
+    "remaining_qty": 2537
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0005",
+    "production_date": "2026-08-16",
+    "remaining_qty": 2541
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0006",
+    "production_date": "2026-09-01",
+    "remaining_qty": 2539
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0007",
+    "production_date": "2026-08-16",
+    "remaining_qty": 2538
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0008",
+    "production_date": "2026-09-15",
+    "remaining_qty": 2526
+  },
+  {
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0009",
+    "production_date": "2026-08-29",
+    "remaining_qty": 2531
   },
   {
     "product": "아이패드 에어",
-    "lots": [
-      {
-        "production_date": "2026-09-09",
-        "remaining_qty": 641
-      },
-      {
-        "production_date": "2026-08-20",
-        "remaining_qty": 202
-      },
-      {
-        "production_date": "2026-07-31",
-        "remaining_qty": 77
-      }
-    ]
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0000",
+    "production_date": "2026-06-04",
+    "remaining_qty": 446
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0001",
+    "production_date": "2026-08-28",
+    "remaining_qty": 2204
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0002",
+    "production_date": "2026-08-24",
+    "remaining_qty": 2201
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0003",
+    "production_date": "2026-08-12",
+    "remaining_qty": 2202
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0004",
+    "production_date": "2026-08-25",
+    "remaining_qty": 2199
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0005",
+    "production_date": "2026-08-12",
+    "remaining_qty": 2196
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0006",
+    "production_date": "2026-08-25",
+    "remaining_qty": 2200
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0007",
+    "production_date": "2026-08-30",
+    "remaining_qty": 2195
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0008",
+    "production_date": "2026-08-31",
+    "remaining_qty": 2193
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0009",
+    "production_date": "2026-09-09",
+    "remaining_qty": 2192
+  },
+  {
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "lot_id": "LOT-아이패-0010",
+    "production_date": "2026-08-27",
+    "remaining_qty": 2189
   },
   {
     "product": "갤럭시탭 S10",
-    "lots": [
-      {
-        "production_date": "2026-09-10",
-        "remaining_qty": 700
-      },
-      {
-        "production_date": "2026-08-20",
-        "remaining_qty": 150
-      },
-      {
-        "production_date": "2026-06-15",
-        "remaining_qty": 150
-      }
-    ]
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-05-31",
+    "remaining_qty": 2971
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-09-04",
+    "remaining_qty": 1528
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-08-17",
+    "remaining_qty": 1530
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-10",
+    "remaining_qty": 1538
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-08-09",
+    "remaining_qty": 1531
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-09-10",
+    "remaining_qty": 1528
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-08-29",
+    "remaining_qty": 1529
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-08-24",
+    "remaining_qty": 1527
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0008",
+    "production_date": "2026-08-28",
+    "remaining_qty": 1522
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0009",
+    "production_date": "2026-08-13",
+    "remaining_qty": 1526
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0010",
+    "production_date": "2026-08-30",
+    "remaining_qty": 1523
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "lot_id": "LOT-갤럭시-0011",
+    "production_date": "2026-09-13",
+    "remaining_qty": 1539
   },
   {
     "product": "테슬라 모델Y 센터디스플레이",
-    "lots": [
-      {
-        "production_date": "2026-09-07",
-        "remaining_qty": 793
-      },
-      {
-        "production_date": "2026-08-17",
-        "remaining_qty": 337
-      },
-      {
-        "production_date": "2026-07-19",
-        "remaining_qty": 62
-      }
-    ]
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0000",
+    "production_date": "2026-06-04",
+    "remaining_qty": 146
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0001",
+    "production_date": "2026-08-16",
+    "remaining_qty": 296
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0002",
+    "production_date": "2026-09-16",
+    "remaining_qty": 311
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0003",
+    "production_date": "2026-08-29",
+    "remaining_qty": 308
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0004",
+    "production_date": "2026-08-17",
+    "remaining_qty": 307
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0005",
+    "production_date": "2026-08-26",
+    "remaining_qty": 298
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0006",
+    "production_date": "2026-09-13",
+    "remaining_qty": 301
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0007",
+    "production_date": "2026-08-17",
+    "remaining_qty": 296
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0008",
+    "production_date": "2026-09-12",
+    "remaining_qty": 305
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-테슬라-0009",
+    "production_date": "2026-08-16",
+    "remaining_qty": 295
   },
   {
     "product": "현대 아이오닉9 클러스터디스플레이",
-    "lots": [
-      {
-        "production_date": "2026-09-14",
-        "remaining_qty": 699
-      },
-      {
-        "production_date": "2026-08-27",
-        "remaining_qty": 385
-      },
-      {
-        "production_date": "2026-08-07",
-        "remaining_qty": 41
-      },
-      {
-        "production_date": "2026-07-23",
-        "remaining_qty": 61
-      }
-    ]
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0000",
+    "production_date": "2026-06-08",
+    "remaining_qty": 42
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0001",
+    "production_date": "2026-09-13",
+    "remaining_qty": 159
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0002",
+    "production_date": "2026-09-07",
+    "remaining_qty": 173
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0003",
+    "production_date": "2026-08-28",
+    "remaining_qty": 157
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0004",
+    "production_date": "2026-09-01",
+    "remaining_qty": 158
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0005",
+    "production_date": "2026-08-12",
+    "remaining_qty": 168
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0006",
+    "production_date": "2026-08-09",
+    "remaining_qty": 174
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0007",
+    "production_date": "2026-08-08",
+    "remaining_qty": 162
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0008",
+    "production_date": "2026-08-14",
+    "remaining_qty": 167
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0009",
+    "production_date": "2026-08-19",
+    "remaining_qty": 169
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0010",
+    "production_date": "2026-08-28",
+    "remaining_qty": 173
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-현대 -0011",
+    "production_date": "2026-08-20",
+    "remaining_qty": 164
   },
   {
     "product": "BMW iX 인포테인먼트디스플레이",
-    "lots": [
-      {
-        "production_date": "2026-09-14",
-        "remaining_qty": 842
-      },
-      {
-        "production_date": "2026-08-23",
-        "remaining_qty": 264
-      },
-      {
-        "production_date": "2026-06-29",
-        "remaining_qty": 57
-      }
-    ]
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0000",
+    "production_date": "2026-06-09",
+    "remaining_qty": 23
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0001",
+    "production_date": "2026-08-08",
+    "remaining_qty": 119
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0002",
+    "production_date": "2026-09-03",
+    "remaining_qty": 136
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0003",
+    "production_date": "2026-09-03",
+    "remaining_qty": 124
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0004",
+    "production_date": "2026-09-11",
+    "remaining_qty": 121
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0005",
+    "production_date": "2026-09-01",
+    "remaining_qty": 121
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0006",
+    "production_date": "2026-08-12",
+    "remaining_qty": 118
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0007",
+    "production_date": "2026-09-06",
+    "remaining_qty": 116
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0008",
+    "production_date": "2026-08-21",
+    "remaining_qty": 130
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0009",
+    "production_date": "2026-08-09",
+    "remaining_qty": 131
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0010",
+    "production_date": "2026-08-29",
+    "remaining_qty": 117
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "lot_id": "LOT-BMW-0011",
+    "production_date": "2026-09-02",
+    "remaining_qty": 125
   },
   {
     "product": "애플워치 시리즈11",
-    "lots": [
-      {
-        "production_date": "2026-09-08",
-        "remaining_qty": 899
-      },
-      {
-        "production_date": "2026-08-28",
-        "remaining_qty": 323
-      },
-      {
-        "production_date": "2026-07-16",
-        "remaining_qty": 38
-      },
-      {
-        "production_date": "2026-08-01",
-        "remaining_qty": 35
-      },
-      {
-        "production_date": "2026-07-20",
-        "remaining_qty": 53
-      }
-    ]
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0000",
+    "production_date": "2026-06-04",
+    "remaining_qty": 248
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0001",
+    "production_date": "2026-09-12",
+    "remaining_qty": 1338
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0002",
+    "production_date": "2026-08-31",
+    "remaining_qty": 1351
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0003",
+    "production_date": "2026-08-10",
+    "remaining_qty": 1337
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0004",
+    "production_date": "2026-08-20",
+    "remaining_qty": 1334
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0005",
+    "production_date": "2026-08-13",
+    "remaining_qty": 1338
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0006",
+    "production_date": "2026-09-07",
+    "remaining_qty": 1339
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0007",
+    "production_date": "2026-09-07",
+    "remaining_qty": 1333
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0008",
+    "production_date": "2026-09-13",
+    "remaining_qty": 1336
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "lot_id": "LOT-애플워-0009",
+    "production_date": "2026-08-28",
+    "remaining_qty": 1350
   },
   {
     "product": "갤럭시워치8",
-    "lots": [
-      {
-        "production_date": "2026-09-11",
-        "remaining_qty": 737
-      },
-      {
-        "production_date": "2026-08-18",
-        "remaining_qty": 211
-      },
-      {
-        "production_date": "2026-07-21",
-        "remaining_qty": 21
-      },
-      {
-        "production_date": "2026-06-26",
-        "remaining_qty": 23
-      },
-      {
-        "production_date": "2026-07-17",
-        "remaining_qty": 49
-      }
-    ]
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-05-21",
+    "remaining_qty": 864
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-08-19",
+    "remaining_qty": 1054
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-08-18",
+    "remaining_qty": 1060
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-22",
+    "remaining_qty": 1059
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-08-15",
+    "remaining_qty": 1068
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-08-16",
+    "remaining_qty": 1065
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-09-11",
+    "remaining_qty": 1070
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-09-14",
+    "remaining_qty": 1064
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0008",
+    "production_date": "2026-08-27",
+    "remaining_qty": 1070
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0009",
+    "production_date": "2026-08-31",
+    "remaining_qty": 1051
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0010",
+    "production_date": "2026-09-11",
+    "remaining_qty": 1058
+  },
+  {
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0011",
+    "production_date": "2026-08-11",
+    "remaining_qty": 1069
   },
   {
     "product": "갤럭시워치 울트라",
-    "lots": [
-      {
-        "production_date": "2026-09-07",
-        "remaining_qty": 745
-      },
-      {
-        "production_date": "2026-08-08",
-        "remaining_qty": 389
-      },
-      {
-        "production_date": "2026-06-21",
-        "remaining_qty": 38
-      },
-      {
-        "production_date": "2026-07-20",
-        "remaining_qty": 34
-      }
-    ]
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0000",
+    "production_date": "2026-05-31",
+    "remaining_qty": 201
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0001",
+    "production_date": "2026-08-30",
+    "remaining_qty": 1383
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0002",
+    "production_date": "2026-09-14",
+    "remaining_qty": 1370
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0003",
+    "production_date": "2026-08-17",
+    "remaining_qty": 1381
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0004",
+    "production_date": "2026-08-19",
+    "remaining_qty": 1373
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0005",
+    "production_date": "2026-09-05",
+    "remaining_qty": 1383
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0006",
+    "production_date": "2026-08-20",
+    "remaining_qty": 1385
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "lot_id": "LOT-갤럭시-0007",
+    "production_date": "2026-08-16",
+    "remaining_qty": 1367
   }
 ]

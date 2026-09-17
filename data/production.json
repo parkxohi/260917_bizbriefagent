@@ -1,282 +1,3842 @@
 [
   {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
     "product_type": "Phone",
-    "monthly_target_qty": 900000,
-    "daily": [
-      {
-        "date": "2026-09-01",
-        "qty": 35649
-      },
-      {
-        "date": "2026-09-02",
-        "qty": 31651
-      },
-      {
-        "date": "2026-09-03",
-        "qty": 30806
-      },
-      {
-        "date": "2026-09-04",
-        "qty": 33285
-      },
-      {
-        "date": "2026-09-05",
-        "qty": 21051
-      },
-      {
-        "date": "2026-09-06",
-        "qty": 20041
-      },
-      {
-        "date": "2026-09-07",
-        "qty": 31124
-      },
-      {
-        "date": "2026-09-08",
-        "qty": 26276
-      },
-      {
-        "date": "2026-09-09",
-        "qty": 36294
-      },
-      {
-        "date": "2026-09-10",
-        "qty": 31039
-      },
-      {
-        "date": "2026-09-11",
-        "qty": 25182
-      },
-      {
-        "date": "2026-09-12",
-        "qty": 20148
-      },
-      {
-        "date": "2026-09-13",
-        "qty": 21973
-      },
-      {
-        "date": "2026-09-14",
-        "qty": 25434
-      },
-      {
-        "date": "2026-09-15",
-        "qty": 31055
-      },
-      {
-        "date": "2026-09-16",
-        "qty": 71291
-      }
-    ]
+    "qty": 3821
   },
   {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2553
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3743
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3635
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2596
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2385
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2288
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2059
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 4020
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2757
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 3406
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2386
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3327
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2332
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3517
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3034
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2280
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2142
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2251
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1609
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3431
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2586
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2885
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2257
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3297
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2211
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3604
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2772
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2155
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2149
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2185
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1572
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3103
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2753
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2834
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2171
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3534
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2417
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3537
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3352
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2378
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2272
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2072
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1987
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3514
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2814
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2851
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2557
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2109
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 1654
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2491
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 1866
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1530
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1411
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1446
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1121
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2106
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 1896
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1877
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1544
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2115
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 1468
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2424
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 1724
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1425
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1375
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1325
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1119
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2010
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 1800
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1629
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1627
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3211
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2354
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3631
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2811
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2287
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2061
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2178
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1617
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3284
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2633
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2744
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2313
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2353
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2345
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2759
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2679
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2159
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1512
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1891
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1313
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2770
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2225
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2491
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1779
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3622
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2867
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3867
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3645
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2600
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2471
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2349
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 2077
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 4070
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2830
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 3417
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2479
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 3252
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2297
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3789
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2635
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2259
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2077
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1986
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1799
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3011
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2890
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2915
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2129
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2649
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 1853
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2817
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2395
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1977
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1541
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1582
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1489
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2838
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 1949
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2399
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1693
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2152
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 1450
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2423
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 1747
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1655
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1160
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1234
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1223
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2197
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 1633
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1745
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1529
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2329
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 1599
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2638
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 1909
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1800
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1270
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1556
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1123
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2199
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 1978
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2067
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1505
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2322
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2225
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3091
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2173
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2081
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 1472
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1619
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1482
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2812
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2023
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2257
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 1877
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2945
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 2607
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 3724
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 2703
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2268
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 2071
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1902
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 1885
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 3066
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 2838
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2688
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 2358
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 7474
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18",
+    "product_type": "Phone",
+    "qty": 5272
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 8804
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이폰18 프로",
+    "product_type": "Phone",
+    "qty": 5951
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 5258
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A3",
+    "product": "아이폰18 듀오",
+    "product_type": "Phone",
+    "qty": 4703
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 4904
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A3",
+    "product": "갤럭시Z폴드8",
+    "product_type": "Phone",
+    "qty": 3790
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 7318
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시S26",
+    "product_type": "Phone",
+    "qty": 6236
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 6926
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시Z플립8",
+    "product_type": "Phone",
+    "qty": 4655
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
     "product_type": "Tablet",
-    "monthly_target_qty": 310000,
-    "daily": [
-      {
-        "date": "2026-09-01",
-        "qty": 9059
-      },
-      {
-        "date": "2026-09-02",
-        "qty": 8410
-      },
-      {
-        "date": "2026-09-03",
-        "qty": 10790
-      },
-      {
-        "date": "2026-09-04",
-        "qty": 9444
-      },
-      {
-        "date": "2026-09-05",
-        "qty": 7685
-      },
-      {
-        "date": "2026-09-06",
-        "qty": 6742
-      },
-      {
-        "date": "2026-09-07",
-        "qty": 10957
-      },
-      {
-        "date": "2026-09-08",
-        "qty": 11183
-      },
-      {
-        "date": "2026-09-09",
-        "qty": 8979
-      },
-      {
-        "date": "2026-09-10",
-        "qty": 8772
-      },
-      {
-        "date": "2026-09-11",
-        "qty": 9949
-      },
-      {
-        "date": "2026-09-12",
-        "qty": 8017
-      },
-      {
-        "date": "2026-09-13",
-        "qty": 6217
-      },
-      {
-        "date": "2026-09-14",
-        "qty": 9059
-      },
-      {
-        "date": "2026-09-15",
-        "qty": 8915
-      },
-      {
-        "date": "2026-09-16",
-        "qty": 16992
-      }
-    ]
+    "qty": 1875
   },
   {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1512
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1786
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1222
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1362
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1302
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1877
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1267
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1446
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1347
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1474
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 999
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 2124
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1910
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1830
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1753
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1724
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1449
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 2022
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1509
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1666
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1470
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1556
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1221
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1583
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1290
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1374
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1178
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1260
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1000
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1324
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1197
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1278
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 961
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 991
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 991
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 2427
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1670
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 2015
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1624
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1842
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1379
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 2400
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1781
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 2106
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1608
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1763
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1525
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1701
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1656
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1689
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1293
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1407
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1233
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1742
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1538
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1703
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1210
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1475
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1104
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1971
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1749
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1754
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1550
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1581
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1344
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1619
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1378
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1409
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1253
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1209
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1149
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1259
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1065
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1226
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 838
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1038
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 791
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1999
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1388
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1689
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1319
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1412
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1252
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1849
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 1484
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1480
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 1480
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1386
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 1236
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 3450
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 프로",
+    "product_type": "Tablet",
+    "qty": 2904
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 3148
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A2",
+    "product": "아이패드 에어",
+    "product_type": "Tablet",
+    "qty": 2495
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 2824
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A2",
+    "product": "갤럭시탭 S10",
+    "product_type": "Tablet",
+    "qty": 2171
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
     "product_type": "Automotive",
-    "monthly_target_qty": 26000,
-    "daily": [
-      {
-        "date": "2026-09-01",
-        "qty": 1004
-      },
-      {
-        "date": "2026-09-02",
-        "qty": 896
-      },
-      {
-        "date": "2026-09-03",
-        "qty": 746
-      },
-      {
-        "date": "2026-09-04",
-        "qty": 977
-      },
-      {
-        "date": "2026-09-05",
-        "qty": 824
-      },
-      {
-        "date": "2026-09-06",
-        "qty": 622
-      },
-      {
-        "date": "2026-09-07",
-        "qty": 802
-      },
-      {
-        "date": "2026-09-08",
-        "qty": 998
-      },
-      {
-        "date": "2026-09-09",
-        "qty": 733
-      },
-      {
-        "date": "2026-09-10",
-        "qty": 993
-      },
-      {
-        "date": "2026-09-11",
-        "qty": 797
-      },
-      {
-        "date": "2026-09-12",
-        "qty": 707
-      },
-      {
-        "date": "2026-09-13",
-        "qty": 597
-      },
-      {
-        "date": "2026-09-14",
-        "qty": 795
-      },
-      {
-        "date": "2026-09-15",
-        "qty": 837
-      },
-      {
-        "date": "2026-09-16",
-        "qty": 1591
-      }
-    ]
+    "qty": 256
   },
   {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 213
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 164
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 138
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 121
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 112
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 228
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 190
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 159
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 111
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 120
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 88
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 179
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 169
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 113
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 111
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 95
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 79
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 256
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 200
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 156
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 138
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 132
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 95
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 221
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 164
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 140
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 108
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 99
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 92
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 150
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 140
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 93
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 94
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 76
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 69
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 204
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 170
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 140
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 101
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 94
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 93
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 252
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 214
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 168
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 132
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 120
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 112
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 194
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 148
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 120
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 100
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 89
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 82
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 262
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 202
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 149
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 150
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 132
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 98
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 214
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 158
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 122
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 118
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 100
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 85
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 170
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 160
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 126
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 87
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 90
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 74
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 140
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 139
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 93
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 86
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 81
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 58
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 202
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 169
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 138
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 101
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 104
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 81
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 234
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 157
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 141
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 111
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 115
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 79
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 437
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A3",
+    "product": "테슬라 모델Y 센터디스플레이",
+    "product_type": "Automotive",
+    "qty": 306
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 268
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A3",
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "product_type": "Automotive",
+    "qty": 211
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 211
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A3",
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "product_type": "Automotive",
+    "qty": 158
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
     "product_type": "Watch",
-    "monthly_target_qty": 145000,
-    "daily": [
-      {
-        "date": "2026-09-01",
-        "qty": 3564
-      },
-      {
-        "date": "2026-09-02",
-        "qty": 3722
-      },
-      {
-        "date": "2026-09-03",
-        "qty": 3865
-      },
-      {
-        "date": "2026-09-04",
-        "qty": 4957
-      },
-      {
-        "date": "2026-09-05",
-        "qty": 3384
-      },
-      {
-        "date": "2026-09-06",
-        "qty": 3441
-      },
-      {
-        "date": "2026-09-07",
-        "qty": 4539
-      },
-      {
-        "date": "2026-09-08",
-        "qty": 4722
-      },
-      {
-        "date": "2026-09-09",
-        "qty": 4951
-      },
-      {
-        "date": "2026-09-10",
-        "qty": 4018
-      },
-      {
-        "date": "2026-09-11",
-        "qty": 3873
-      },
-      {
-        "date": "2026-09-12",
-        "qty": 3641
-      },
-      {
-        "date": "2026-09-13",
-        "qty": 2817
-      },
-      {
-        "date": "2026-09-14",
-        "qty": 4400
-      },
-      {
-        "date": "2026-09-15",
-        "qty": 5030
-      },
-      {
-        "date": "2026-09-16",
-        "qty": 8676
-      }
-    ]
+    "qty": 696
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 569
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 750
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 538
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 560
+  },
+  {
+    "date": "2026-09-01",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 451
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 779
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 542
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 772
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 573
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 578
+  },
+  {
+    "date": "2026-09-02",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 478
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 721
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 651
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 733
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 664
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 617
+  },
+  {
+    "date": "2026-09-03",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 479
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 1014
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 746
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 989
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 803
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 790
+  },
+  {
+    "date": "2026-09-04",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 615
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 633
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 568
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 620
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 603
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 507
+  },
+  {
+    "date": "2026-09-05",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 453
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 644
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 578
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 661
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 583
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 540
+  },
+  {
+    "date": "2026-09-06",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 435
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 828
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 784
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 858
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 783
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 732
+  },
+  {
+    "date": "2026-09-07",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 554
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 956
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 721
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 864
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 843
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 723
+  },
+  {
+    "date": "2026-09-08",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 615
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 974
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 784
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 969
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 821
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 730
+  },
+  {
+    "date": "2026-09-09",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 673
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 773
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 654
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 857
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 595
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 636
+  },
+  {
+    "date": "2026-09-10",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 503
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 783
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 592
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 819
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 581
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 633
+  },
+  {
+    "date": "2026-09-11",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 465
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 695
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 598
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 658
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 658
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 552
+  },
+  {
+    "date": "2026-09-12",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 480
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 575
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 425
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 595
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 423
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 475
+  },
+  {
+    "date": "2026-09-13",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 324
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 846
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 716
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 913
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 677
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 692
+  },
+  {
+    "date": "2026-09-14",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 556
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 1000
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 786
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 949
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 869
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 744
+  },
+  {
+    "date": "2026-09-15",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 682
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 1674
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A4",
+    "product": "애플워치 시리즈11",
+    "product_type": "Watch",
+    "qty": 1407
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 1577
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치8",
+    "product_type": "Watch",
+    "qty": 1560
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "주간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 1311
+  },
+  {
+    "date": "2026-09-16",
+    "shift": "야간",
+    "line": "A4",
+    "product": "갤럭시워치 울트라",
+    "product_type": "Watch",
+    "qty": 1147
   }
 ]
