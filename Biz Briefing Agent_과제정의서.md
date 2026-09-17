@@ -171,6 +171,15 @@
   - "미리보기" 버튼 ERR_BLOCKED_BY_RESPONSE 원인 파악: 스냅샷 아티팩트 내 번들 파일 간 target=_blank 이동이 막히는 문제. Blob URL로 이메일 HTML을 직접 여는 방식으로 교체해 해결(로컬 실제 앱의 `/api/email-preview`는 원래부터 정상 동작 확인됨).
   - 공유 링크(https://claude.ai/artifact/RebQqwZ94TXPyXtW6GcESe) 최신 코드로 재동기화.
 
+- **실제 Gmail 발송 성공 + 이메일 UI 5차 수정 (2026-09-17)**:
+  - 실제 SMTP 발송이 계속 535 인증 실패로 막혀 있던 근본 원인 파악: `.env`가 실제로는 저장된 적이 없고 `.env.example`의 placeholder 문자열 그대로였음(2단계 인증/앱 비밀번호 재발급은 원인이 아니었음). 실제 값 저장 후 즉시 발송 성공. 수신자 오타(`eehoskrap`→`eehoskrap7`)를 발견해 재발송으로 정정(SMTP로 이미 보낸 메일은 회수 불가함을 안내).
+  - 실제 수신 메일 확인 피드백 반영: 본문 가운데 정렬→좌측 정렬, 부제목 "중소형사업부"→"OLED", "갤럭시Z폴드8·아이폰18 듀오 판매 부진" 통합 카드를 제품별 개별 카드로 분리, "Biz Insight 바로가기" 버튼에 실제 대시보드 링크 연결(`DASHBOARD_URL` 환경변수, 기본값 `localhost:3000/dashboard.html`).
+  - 날짜·배지 우측정렬이 실제 Gmail 클라이언트에서 깨지는 문제 발견(flexbox `justify-content:space-between`가 이메일 클라이언트에서 불안정) → `<table role="presentation">` 2열 레이아웃으로 교체해 해결(`lib/emailTemplate.js`).
+- **발송 이력 영속화 + 네비게이션 버그 수정 (2026-09-17)**:
+  - "메일링 > 발송하기"의 "최근 발송 이력"이 새로고침 시 사라지는 화면 상태였던 것을 `lib/sendHistory.js` + `data/send-history.json`(append-only, git 미포함) + `api/send-history.js` 조회 API로 실제 영속화. `send.html`은 하드코딩된 예시 행 대신 이 API를 fetch해서 렌더링.
+  - 좌측 상단 "Biz Insight" 로고가 클릭 불가능한 텍스트였던 것을 대시보드로 이동하는 링크로 수정(`public/dashboard.html`, `public/admin/*.html` 4개 파일 전부).
+  - 공유 스냅샷 아티팩트(https://claude.ai/artifact/RebQqwZ94TXPyXtW6GcESe)에서 "메일링 관리 → Dashboard" 이동 시 "Couldn't find this Artifact's content" 에러가 나던 원인 파악: 번들 내 실제 파일명은 `index.html`인데 send/schedule/recipients 미리보기 3개 화면의 nav 링크가 옛 파일명 `dashboard-preview.html`을 가리키고 있었음(과거 republish 시 root 파일명이 바뀌면서 발생). 4개 파일 모두 `index.html`로 링크 정정 + 로고 링크 추가 + 이메일 미리보기(테이블 레이아웃)까지 최신 코드로 재동기화해 재발행.
+
 **미결 질문 (진행 중)**
 - 대시보드 접근에 로그인/인증이 필요한지, 아니면 시연용 공개 링크로 충분한지 — 미정.
 
