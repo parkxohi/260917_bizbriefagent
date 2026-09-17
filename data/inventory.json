@@ -1,0 +1,309 @@
+[
+  {
+    "product": "아이폰18",
+    "lots": [
+      {
+        "production_date": "2026-09-14",
+        "remaining_qty": 630
+      },
+      {
+        "production_date": "2026-08-13",
+        "remaining_qty": 378
+      },
+      {
+        "production_date": "2026-07-29",
+        "remaining_qty": 36
+      }
+    ]
+  },
+  {
+    "product": "아이폰18 프로",
+    "lots": [
+      {
+        "production_date": "2026-09-10",
+        "remaining_qty": 700
+      },
+      {
+        "production_date": "2026-08-20",
+        "remaining_qty": 150
+      },
+      {
+        "production_date": "2026-06-15",
+        "remaining_qty": 150
+      }
+    ]
+  },
+  {
+    "product": "아이폰18 듀오",
+    "lots": [
+      {
+        "production_date": "2026-09-10",
+        "remaining_qty": 833
+      },
+      {
+        "production_date": "2026-08-16",
+        "remaining_qty": 246
+      },
+      {
+        "production_date": "2026-07-04",
+        "remaining_qty": 26
+      },
+      {
+        "production_date": "2026-08-04",
+        "remaining_qty": 46
+      },
+      {
+        "production_date": "2026-08-07",
+        "remaining_qty": 77
+      }
+    ]
+  },
+  {
+    "product": "갤럭시Z폴드8",
+    "lots": [
+      {
+        "production_date": "2026-09-11",
+        "remaining_qty": 797
+      },
+      {
+        "production_date": "2026-08-27",
+        "remaining_qty": 306
+      },
+      {
+        "production_date": "2026-07-04",
+        "remaining_qty": 74
+      }
+    ]
+  },
+  {
+    "product": "갤럭시S26",
+    "lots": [
+      {
+        "production_date": "2026-09-10",
+        "remaining_qty": 652
+      },
+      {
+        "production_date": "2026-08-10",
+        "remaining_qty": 384
+      },
+      {
+        "production_date": "2026-07-03",
+        "remaining_qty": 59
+      },
+      {
+        "production_date": "2026-07-13",
+        "remaining_qty": 66
+      },
+      {
+        "production_date": "2026-06-29",
+        "remaining_qty": 33
+      }
+    ]
+  },
+  {
+    "product": "갤럭시Z플립8",
+    "lots": [
+      {
+        "production_date": "2026-09-09",
+        "remaining_qty": 697
+      },
+      {
+        "production_date": "2026-08-24",
+        "remaining_qty": 281
+      },
+      {
+        "production_date": "2026-08-01",
+        "remaining_qty": 55
+      },
+      {
+        "production_date": "2026-07-09",
+        "remaining_qty": 69
+      }
+    ]
+  },
+  {
+    "product": "아이패드 프로",
+    "lots": [
+      {
+        "production_date": "2026-09-11",
+        "remaining_qty": 628
+      },
+      {
+        "production_date": "2026-08-21",
+        "remaining_qty": 231
+      },
+      {
+        "production_date": "2026-07-26",
+        "remaining_qty": 60
+      },
+      {
+        "production_date": "2026-06-25",
+        "remaining_qty": 49
+      },
+      {
+        "production_date": "2026-06-22",
+        "remaining_qty": 49
+      }
+    ]
+  },
+  {
+    "product": "아이패드 에어",
+    "lots": [
+      {
+        "production_date": "2026-09-09",
+        "remaining_qty": 641
+      },
+      {
+        "production_date": "2026-08-20",
+        "remaining_qty": 202
+      },
+      {
+        "production_date": "2026-07-31",
+        "remaining_qty": 77
+      }
+    ]
+  },
+  {
+    "product": "갤럭시탭 S10",
+    "lots": [
+      {
+        "production_date": "2026-09-10",
+        "remaining_qty": 700
+      },
+      {
+        "production_date": "2026-08-20",
+        "remaining_qty": 150
+      },
+      {
+        "production_date": "2026-06-15",
+        "remaining_qty": 150
+      }
+    ]
+  },
+  {
+    "product": "테슬라 모델Y 센터디스플레이",
+    "lots": [
+      {
+        "production_date": "2026-09-07",
+        "remaining_qty": 793
+      },
+      {
+        "production_date": "2026-08-17",
+        "remaining_qty": 337
+      },
+      {
+        "production_date": "2026-07-19",
+        "remaining_qty": 62
+      }
+    ]
+  },
+  {
+    "product": "현대 아이오닉9 클러스터디스플레이",
+    "lots": [
+      {
+        "production_date": "2026-09-14",
+        "remaining_qty": 699
+      },
+      {
+        "production_date": "2026-08-27",
+        "remaining_qty": 385
+      },
+      {
+        "production_date": "2026-08-07",
+        "remaining_qty": 41
+      },
+      {
+        "production_date": "2026-07-23",
+        "remaining_qty": 61
+      }
+    ]
+  },
+  {
+    "product": "BMW iX 인포테인먼트디스플레이",
+    "lots": [
+      {
+        "production_date": "2026-09-14",
+        "remaining_qty": 842
+      },
+      {
+        "production_date": "2026-08-23",
+        "remaining_qty": 264
+      },
+      {
+        "production_date": "2026-06-29",
+        "remaining_qty": 57
+      }
+    ]
+  },
+  {
+    "product": "애플워치 시리즈11",
+    "lots": [
+      {
+        "production_date": "2026-09-08",
+        "remaining_qty": 899
+      },
+      {
+        "production_date": "2026-08-28",
+        "remaining_qty": 323
+      },
+      {
+        "production_date": "2026-07-16",
+        "remaining_qty": 38
+      },
+      {
+        "production_date": "2026-08-01",
+        "remaining_qty": 35
+      },
+      {
+        "production_date": "2026-07-20",
+        "remaining_qty": 53
+      }
+    ]
+  },
+  {
+    "product": "갤럭시워치8",
+    "lots": [
+      {
+        "production_date": "2026-09-11",
+        "remaining_qty": 737
+      },
+      {
+        "production_date": "2026-08-18",
+        "remaining_qty": 211
+      },
+      {
+        "production_date": "2026-07-21",
+        "remaining_qty": 21
+      },
+      {
+        "production_date": "2026-06-26",
+        "remaining_qty": 23
+      },
+      {
+        "production_date": "2026-07-17",
+        "remaining_qty": 49
+      }
+    ]
+  },
+  {
+    "product": "갤럭시워치 울트라",
+    "lots": [
+      {
+        "production_date": "2026-09-07",
+        "remaining_qty": 745
+      },
+      {
+        "production_date": "2026-08-08",
+        "remaining_qty": 389
+      },
+      {
+        "production_date": "2026-06-21",
+        "remaining_qty": 38
+      },
+      {
+        "production_date": "2026-07-20",
+        "remaining_qty": 34
+      }
+    ]
+  }
+]
