@@ -25,8 +25,20 @@
   main { padding: 32px 40px; display: flex; flex-direction: column; gap: 22px; align-items: center; }
   .meta-row { width: 664px; display: flex; justify-content: flex-end; }
   .meta-row span { font-size: 12px; color: var(--foot); }
-  .grid { width: 664px; display: grid; grid-template-columns: 320px 320px; grid-template-rows: 320px 320px; gap: 24px; }
-  .card { width: 320px; height: 320px; border-radius: 18px; background: var(--card); border: 1px solid var(--border); padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+  .grid { width: 664px; display: grid; grid-template-columns: 320px 320px; grid-template-rows: 420px 320px; gap: 24px; }
+  .card { width: 320px; border-radius: 18px; background: var(--card); border: 1px solid var(--border); padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+  .card.tall { height: 420px; }
+  .card.short { height: 320px; }
+  .section-label { font-size: 10px; font-weight: 700; letter-spacing: 0.03em; color: var(--foot); text-transform: uppercase; }
+  .daily-row { display: flex; align-items: center; justify-content: center; gap: 6px; }
+  .arrow { font-size: 14px; font-weight: 700; }
+  .cumulative-box { display: flex; align-items: baseline; gap: 8px; padding: 8px 10px; border-radius: 8px; background: rgba(255,255,255,0.03); }
+  .cumulative-box .value { font-size: 20px; font-weight: 700; }
+  .cumulative-box .detail { font-size: 11px; color: var(--muted); }
+  .top3-row { display: flex; justify-content: space-between; align-items: center; font-size: 11px; padding: 3px 0; }
+  .top3-row .rank { color: var(--foot); width: 16px; }
+  .top3-row .name { flex-grow: 1; color: var(--text); }
+  .top3-row .qty { color: var(--muted); }
   .card-head { display: flex; justify-content: space-between; align-items: center; }
   .card-head h2 { margin: 0; font-size: 18px; font-weight: 700; }
   .badge { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; }
@@ -36,10 +48,7 @@
   .as-of { font-size: 10px; color: var(--foot); }
   .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
   .tag { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; background: rgba(245,185,66,0.12); color: var(--amber); }
-  .trio { display: flex; justify-content: space-between; gap: 8px; }
-  .trio .item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-  .trio .item .d-label { font-size: 11px; font-weight: 700; }
-  .cumulative-line { font-size: 11px; color: var(--muted); }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
   .by-type-row { display: flex; justify-content: space-between; gap: 6px; margin-top: 4px; }
   .by-type-row .item { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px; border-radius: 10px; background: rgba(255,255,255,0.03); }
   .by-type-row .item .type-name { font-size: 10px; color: var(--muted); }
@@ -71,28 +80,41 @@ const DAYS_IN_MONTH = 30;
 const ELAPSED = 16;
 const STANDARD_PCT = (ELAPSED / DAYS_IN_MONTH) * 100;
 
-function miniDonut(pct) {
-  const r = 34, c = 2 * Math.PI * r;
+function miniDonut(pct, big, tierColored) {
+  const dim = big ? 84 : 54;
+  const r = big ? 34 : 21;
+  const strokeW = big ? 9 : 6;
+  const fontSize = big ? 16 : 10.5;
+  const c = 2 * Math.PI * r;
   const arc = (Math.min(pct, 100) / 100) * c;
-  const color = pct >= 100 ? "#22C55E" : pct >= 90 ? "#F5B942" : "#F87171";
-  return { svg: `<svg width="84" height="84" viewBox="0 0 84 84" role="img" aria-label="${pct}%">
-    <circle cx="42" cy="42" r="${r}" fill="none" stroke="var(--border)" stroke-width="9"/>
-    <circle cx="42" cy="42" r="${r}" fill="none" stroke="${color}" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 42 42)"/>
-    <text x="42" y="47" text-anchor="middle" fill="#F5F1EA" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">${pct}%</text>
-  </svg>`, color };
+  const color = tierColored ? (pct >= 100 ? "#22C55E" : pct >= 90 ? "#F5B942" : "#F87171") : "#57534E";
+  const textColor = tierColored ? "#F5F1EA" : "#8A8378";
+  const cx = dim / 2, cy = dim / 2;
+  return { color, svg: `<svg width="${dim}" height="${dim}" viewBox="0 0 ${dim} ${dim}" role="img" aria-label="${pct}%">
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="var(--border)" stroke-width="${strokeW}"/>
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${color}" stroke-width="${strokeW}" stroke-linecap="round" stroke-dasharray="${arc.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 ${cx} ${cy})"/>
+    <text x="${cx}" y="${cy + fontSize * 0.35}" text-anchor="middle" fill="${textColor}" font-family="'Space Grotesk', sans-serif" font-size="${fontSize}" font-weight="700">${pct}%</text>
+  </svg>` };
 }
 
-function trioDonuts(trend) {
-  const labels = ["D-2", "D-1", "D-0"];
-  const items = trend.map((t, i) => {
-    const { svg, color } = miniDonut(t.pct);
-    return `<div class="item">${svg}<span class="d-label" style="color:${color};">${labels[i]}</span></div>`;
-  }).join("");
-  return `<div class="trio" role="img" aria-label="최근 3일(D-2, D-1, D-0) 일목표 달성률">${items}</div>`;
+function trendArrow(prev, next) {
+  if (next > prev) return '<span class="arrow" style="color:#22C55E;">▲</span>';
+  if (next < prev) return '<span class="arrow" style="color:#F87171;">▼</span>';
+  return '<span class="arrow" style="color:#78716C;">–</span>';
 }
 
-function statusOf(pct, deviation, threshold) {
-  return Math.abs(deviation) > threshold ? "warn" : "normal";
+function dailyTrio(trend) {
+  const [d2, d1, d0] = trend;
+  const small2 = miniDonut(d2.pct, false, false);
+  const small1 = miniDonut(d1.pct, false, false);
+  const big0 = miniDonut(d0.pct, true, true);
+  return `<div class="daily-row" role="img" aria-label="최근 3일 일목표 달성률 추이(D-2, D-1, D-0)">
+    <div class="item">${small2.svg}<span class="d-label" style="color:#78716C; font-size:9.5px;">D-2</span></div>
+    ${trendArrow(d2.pct, d1.pct)}
+    <div class="item">${small1.svg}<span class="d-label" style="color:#78716C; font-size:9.5px;">D-1</span></div>
+    ${trendArrow(d1.pct, d0.pct)}
+    <div class="item">${big0.svg}<span class="d-label" style="color:${big0.color}; font-size:11px; font-weight:700;">D-0</span></div>
+  </div>`;
 }
 
 function renderSalesCard(sales, trend) {
@@ -100,15 +122,27 @@ function renderSalesCard(sales, trend) {
   const badgeClass = anomalies.length ? "warn" : "normal";
   const badgeLabel = anomalies.length ? "주의" : "정상";
   const worst = anomalies[0] || sales[0];
+  const cumColor = anomalies.length ? "#F5B942" : "#22C55E";
+  const top3 = [...sales].sort((a, b) => b.qty - a.qty).slice(0, 3);
   return `
-    <div class="card">
+    <div class="card tall">
       <div class="card-head"><h2>판매진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
-      <span class="as-of num">데이터 기준일 2026-09-16 · 최근 3일 일목표 달성률</span>
-      ${trioDonuts(trend)}
-      <div class="cumulative-line">누적 <strong class="num">${worst.pct}%</strong> · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p</div>
-      <div class="tag-row">
+      <span class="as-of num">데이터 기준일 2026-09-16</span>
+
+      <span class="section-label">일별 목표 달성률 (참고용)</span>
+      ${dailyTrio(trend)}
+
+      <div class="cumulative-box">
+        <span class="value num" style="color:${cumColor};">${worst.pct}%</span>
+        <span class="detail">9월 누적 진척률 · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p — 이 수치가 상태 판정 기준</span>
+      </div>
+
+      <div class="tag-row" style="margin-top: 0;">
         ${anomalies.map((a) => `<span class="tag">${a.product} · 주의</span>`).join("")}
       </div>
+
+      <span class="section-label" style="margin-top: auto;">TOP3 판매실적</span>
+      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product}</span><span class="qty num">${p.qty.toLocaleString("ko-KR")}개</span></div>`).join("")}
     </div>`;
 }
 
@@ -117,15 +151,27 @@ function renderProductionCard(production, trend) {
   const badgeClass = anomalies.length ? "warn" : "normal";
   const badgeLabel = anomalies.length ? "주의" : "정상";
   const worst = anomalies[0] || production[0];
+  const cumColor = anomalies.length ? "#F5B942" : "#22C55E";
+  const top3 = [...production].sort((a, b) => b.qty - a.qty).slice(0, 3);
   return `
-    <div class="card">
+    <div class="card tall">
       <div class="card-head"><h2>생산진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
-      <span class="as-of num">데이터 기준일 2026-09-16 · 최근 3일 일목표 달성률</span>
-      ${trioDonuts(trend)}
-      <div class="cumulative-line">누적 <strong class="num">${worst.pct}%</strong> · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p</div>
-      <div class="tag-row">
+      <span class="as-of num">데이터 기준일 2026-09-16</span>
+
+      <span class="section-label">일별 목표 달성률 (참고용)</span>
+      ${dailyTrio(trend)}
+
+      <div class="cumulative-box">
+        <span class="value num" style="color:${cumColor};">${worst.pct}%</span>
+        <span class="detail">9월 누적 진척률 · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p — 이 수치가 상태 판정 기준</span>
+      </div>
+
+      <div class="tag-row" style="margin-top: 0;">
         ${anomalies.map((a) => `<span class="tag">${a.product_type} · 주의</span>`).join("")}
       </div>
+
+      <span class="section-label" style="margin-top: auto;">TOP3 생산실적</span>
+      ${top3.map((p, i) => `<div class="top3-row"><span class="rank">${i + 1}</span><span class="name">${p.product_type}</span><span class="qty num">${p.qty.toLocaleString("ko-KR")}개</span></div>`).join("")}
     </div>`;
 }
 
@@ -145,7 +191,7 @@ function renderCapaCard(capa) {
       <text x="${x + 23}" y="143" text-anchor="middle" fill="#A89F92" font-size="11">${c.line}</text>`;
   }).join("");
   return `
-    <div class="card">
+    <div class="card short">
       <div class="card-head"><h2>CAPA 가동률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
       <span class="as-of num">데이터 기준일 2026-09-16 · 라인별</span>
       <svg width="276" height="148" viewBox="0 0 260 150" role="img" aria-label="라인별 CAPA 가동률">
@@ -178,7 +224,7 @@ function renderInventoryCard(inventoryIssues, byType) {
     return `<div class="item"><span class="type-name">${t.product_type}</span><span class="type-pct num" style="color:${color};">${t.pct}%</span></div>`;
   }).join("");
   return `
-    <div class="card">
+    <div class="card short">
       <div class="card-head"><h2>부진재고현황</h2><span class="badge danger">위험</span></div>
       <span class="as-of num">데이터 기준일 2026-09-16 · 상위 4개 제품</span>
       <div style="display:flex; flex-direction:column; gap:11px; margin-top:2px;">${rows}</div>

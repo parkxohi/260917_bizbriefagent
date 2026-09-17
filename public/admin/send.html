@@ -25,6 +25,7 @@
   p.desc { margin:0 0 28px; font-size:14px; color:var(--muted); line-height:1.6; }
   #sendBtn { background:var(--accent); color:var(--bg); border:none; padding:14px 28px; border-radius:10px; font-weight:700; font-size:15px; }
   #sendBtn:disabled { opacity:0.6; cursor:progress; }
+  #previewBtn { background:transparent; color:var(--text); border:1px solid var(--border); padding:14px 24px; border-radius:10px; font-weight:700; font-size:15px; }
   #status { margin-left:16px; font-size:14px; font-weight:600; }
   #status.ok { color:var(--green); }
   #status.error { color:var(--red); }
@@ -50,8 +51,9 @@
   <h1 style="font-size:22px; margin:0 0 8px;">Daily Briefing 발송</h1>
   <p class="desc">아래 버튼을 클릭하면 오늘의 Biz Briefing 이메일이 등록된 수신자 전원에게 실제로 발송됩니다.</p>
 
-  <div class="send-row">
+  <div class="send-row" style="gap:12px;">
     <button id="sendBtn" type="button">지금 발송하기 ▶</button>
+    <a id="previewBtn" href="/api/email-preview" target="_blank" rel="noopener">미리보기</a>
     <span id="status" role="status" aria-live="polite"></span>
   </div>
 
