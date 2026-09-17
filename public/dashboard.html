@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>경영정보 대시보드 - Biz Insight</title>
+<title>Dashboard - Biz Insight</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 <style>
@@ -36,15 +36,20 @@
   .as-of { font-size: 10px; color: var(--foot); }
   .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
   .tag { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; background: rgba(245,185,66,0.12); color: var(--amber); }
-  .donut-row { display: flex; align-items: center; gap: 12px; }
-  .donut-num { font-size: 27px; font-weight: 700; }
-  .donut-caption { font-size: 10.5px; color: var(--muted); line-height: 1.4; }
+  .trio { display: flex; justify-content: space-between; gap: 8px; }
+  .trio .item { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+  .trio .item .d-label { font-size: 11px; font-weight: 700; }
+  .cumulative-line { font-size: 11px; color: var(--muted); }
+  .by-type-row { display: flex; justify-content: space-between; gap: 6px; margin-top: 4px; }
+  .by-type-row .item { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px; border-radius: 10px; background: rgba(255,255,255,0.03); }
+  .by-type-row .item .type-name { font-size: 10px; color: var(--muted); }
+  .by-type-row .item .type-pct { font-size: 14px; font-weight: 700; }
   .inv-row { display: flex; align-items: center; gap: 8px; }
   .inv-row .name { width: 74px; font-size: 10.5px; color: var(--muted); }
   .inv-bar-track { flex-grow: 1; height: 9px; border-radius: 999px; background: var(--border); }
   .inv-bar-fill { height: 9px; border-radius: 999px; }
   .inv-value { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; }
-  .footnote { font-size: 10px; color: var(--foot); text-align: center; margin-top: auto; }
+  .footnote { font-size: 10px; color: var(--foot); text-align: center; }
 </style>
 </head>
 <body>
@@ -52,8 +57,8 @@
 <nav aria-label="주 메뉴">
   <span class="brand">Biz Insight</span>
   <span class="tabs">
-    <a href="dashboard.html" aria-current="page">경영정보 대시보드</a>
-    <a href="admin/send.html">메일링</a>
+    <a href="dashboard.html" aria-current="page">Dashboard</a>
+    <a href="admin/send.html">메일링 관리</a>
   </span>
 </nav>
 <main>
@@ -66,32 +71,24 @@ const DAYS_IN_MONTH = 30;
 const ELAPSED = 16;
 const STANDARD_PCT = (ELAPSED / DAYS_IN_MONTH) * 100;
 
-function donutSvg(pct, color, standardPct) {
-  const r = 42, c = 2 * Math.PI * r;
+function miniDonut(pct) {
+  const r = 34, c = 2 * Math.PI * r;
   const arc = (Math.min(pct, 100) / 100) * c;
-  const angleDeg = (standardPct / 100) * 360 - 90;
-  const rad = (angleDeg * Math.PI) / 180;
-  const x1 = 50 + 34 * Math.cos(rad), y1 = 50 + 34 * Math.sin(rad);
-  const x2 = 50 + 48 * Math.cos(rad), y2 = 50 + 48 * Math.sin(rad);
-  return `<svg width="92" height="92" viewBox="0 0 100 100" role="img" aria-label="진척률 ${pct}%, 표준 ${standardPct.toFixed(1)}%">
-    <circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--border)" stroke-width="11"/>
-    <circle cx="50" cy="50" r="${r}" fill="none" stroke="${color}" stroke-width="11" stroke-linecap="round" stroke-dasharray="${arc.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 50 50)"/>
-    <line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="#F5F1EA" stroke-width="2.5" stroke-linecap="round"/>
-  </svg>`;
+  const color = pct >= 100 ? "#22C55E" : pct >= 90 ? "#F5B942" : "#F87171";
+  return { svg: `<svg width="84" height="84" viewBox="0 0 84 84" role="img" aria-label="${pct}%">
+    <circle cx="42" cy="42" r="${r}" fill="none" stroke="var(--border)" stroke-width="9"/>
+    <circle cx="42" cy="42" r="${r}" fill="none" stroke="${color}" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 42 42)"/>
+    <text x="42" y="47" text-anchor="middle" fill="#F5F1EA" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">${pct}%</text>
+  </svg>`, color };
 }
 
-function trendSvg(trend) {
+function trioDonuts(trend) {
   const labels = ["D-2", "D-1", "D-0"];
-  const bars = trend.map((t, i) => {
-    const h = Math.max(4, Math.min(t.pct, 130) * 0.3);
-    const x = 20 + i * 54;
-    const y = 55 - h;
-    const isLast = i === trend.length - 1;
-    return `<rect x="${x}" y="${y.toFixed(1)}" width="34" height="${h.toFixed(1)}" rx="4" fill="${isLast ? '#F5B942' : '#57534E'}"/>
-      <text x="${x + 17}" y="${(y - 4).toFixed(1)}" text-anchor="middle" fill="${isLast ? '#F5F1EA' : '#A89F92'}" font-size="10" font-weight="${isLast ? 700 : 400}">${t.pct}%</text>
-      <text x="${x + 17}" y="66" text-anchor="middle" fill="${isLast ? '#F5B942' : '#78716C'}" font-size="9.5" font-weight="${isLast ? 700 : 400}">${labels[i]}</text>`;
+  const items = trend.map((t, i) => {
+    const { svg, color } = miniDonut(t.pct);
+    return `<div class="item">${svg}<span class="d-label" style="color:${color};">${labels[i]}</span></div>`;
   }).join("");
-  return `<svg width="276" height="52" viewBox="0 0 200 70" role="img" aria-label="최근 3일 일별 달성률 추이">${bars}</svg>`;
+  return `<div class="trio" role="img" aria-label="최근 3일(D-2, D-1, D-0) 일목표 달성률">${items}</div>`;
 }
 
 function statusOf(pct, deviation, threshold) {
@@ -106,15 +103,9 @@ function renderSalesCard(sales, trend) {
   return `
     <div class="card">
       <div class="card-head"><h2>판매진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
-      <span class="as-of num">데이터 기준일 2026-09-16</span>
-      <div class="donut-row">
-        ${donutSvg(worst.pct, "#F5B942", STANDARD_PCT)}
-        <div>
-          <div class="donut-num num">${worst.pct}%</div>
-          <div class="donut-caption">┃ 표준 ${STANDARD_PCT.toFixed(1)}% 대비<br>${worst.deviationPp}%p</div>
-        </div>
-      </div>
-      ${trendSvg(trend)}
+      <span class="as-of num">데이터 기준일 2026-09-16 · 최근 3일 일목표 달성률</span>
+      ${trioDonuts(trend)}
+      <div class="cumulative-line">누적 <strong class="num">${worst.pct}%</strong> · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p</div>
       <div class="tag-row">
         ${anomalies.map((a) => `<span class="tag">${a.product} · 주의</span>`).join("")}
       </div>
@@ -129,15 +120,9 @@ function renderProductionCard(production, trend) {
   return `
     <div class="card">
       <div class="card-head"><h2>생산진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
-      <span class="as-of num">데이터 기준일 2026-09-16</span>
-      <div class="donut-row">
-        ${donutSvg(worst.pct, "#F5B942", STANDARD_PCT)}
-        <div>
-          <div class="donut-num num">${worst.pct}%</div>
-          <div class="donut-caption">┃ 표준 ${STANDARD_PCT.toFixed(1)}% 대비<br>${worst.deviationPp}%p</div>
-        </div>
-      </div>
-      ${trendSvg(trend)}
+      <span class="as-of num">데이터 기준일 2026-09-16 · 최근 3일 일목표 달성률</span>
+      ${trioDonuts(trend)}
+      <div class="cumulative-line">누적 <strong class="num">${worst.pct}%</strong> · 표준 ${STANDARD_PCT.toFixed(1)}% 대비 ${worst.deviationPp}%p</div>
       <div class="tag-row">
         ${anomalies.map((a) => `<span class="tag">${a.product_type} · 주의</span>`).join("")}
       </div>
@@ -174,7 +159,7 @@ function renderCapaCard(capa) {
     </div>`;
 }
 
-function renderInventoryCard(inventoryIssues) {
+function renderInventoryCard(inventoryIssues, byType) {
   const top = inventoryIssues.slice(0, 4);
   const rows = top.map((p) => {
     const danger = p.pct >= 10;
@@ -188,12 +173,17 @@ function renderInventoryCard(inventoryIssues) {
       <span class="inv-value num" style="background:${bgClass}; color:${color};">${p.pct}% ${label}</span>
     </div>`;
   }).join("");
+  const typeRows = byType.map((t) => {
+    const color = t.isAnomaly ? "#F87171" : "#22C55E";
+    return `<div class="item"><span class="type-name">${t.product_type}</span><span class="type-pct num" style="color:${color};">${t.pct}%</span></div>`;
+  }).join("");
   return `
     <div class="card">
       <div class="card-head"><h2>부진재고현황</h2><span class="badge danger">위험</span></div>
-      <span class="as-of num">데이터 기준일 2026-09-16 · 상위 4개</span>
+      <span class="as-of num">데이터 기준일 2026-09-16 · 상위 4개 제품</span>
       <div style="display:flex; flex-direction:column; gap:11px; margin-top:2px;">${rows}</div>
-      <span class="footnote">기준(5%) 초과 ${inventoryIssues.length}개 제품 중 상위 4개</span>
+      <span class="footnote" style="margin-top:10px;">제품군별 부진재고 비율</span>
+      <div class="by-type-row">${typeRows}</div>
     </div>`;
 }
 
@@ -207,7 +197,7 @@ async function load() {
     renderSalesCard(b.sales, b.dailyTrend.sales) +
     renderProductionCard(b.production, b.dailyTrend.production) +
     renderCapaCard(b.capa) +
-    renderInventoryCard(b.issues.inventory);
+    renderInventoryCard(b.issues.inventory, b.inventoryByType);
 }
 load().catch((err) => {
   document.getElementById("grid").textContent = "데이터를 불러오지 못했습니다: " + err.message;
