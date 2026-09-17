@@ -36,6 +36,16 @@
   .field label { font-size:11px; color:var(--foot); }
   input[type="text"], input[type="email"] { background:var(--card); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:13px; }
   #addBtn { background:var(--accent); color:var(--bg); border:none; padding:9px 18px; border-radius:8px; font-weight:700; font-size:13px; }
+  .table-scroll { overflow-x: auto; }
+
+  @media (max-width: 700px) {
+    nav { padding:14px 16px; }
+    .subnav { padding:10px 16px; gap:16px; }
+    main { padding:20px 16px; }
+    th, td { padding:10px 14px; }
+    .add-row .field input { width:100% !important; }
+    .add-row .field { flex: 1 1 140px; }
+  }
 </style>
 </head>
 <body>
@@ -51,6 +61,7 @@
 <main>
   <h1>수신처 관리</h1>
 
+  <div class="table-scroll">
   <table>
     <thead><tr><th>이름</th><th>직책</th><th>이메일</th><th>상태</th><th></th></tr></thead>
     <tbody id="rows">
@@ -60,6 +71,7 @@
       <tr><td>최지우</td><td style="color:var(--muted);">기획팀장</td><td class="num" style="color:var(--muted);">planning.lead@displaybiz.com</td><td><span class="status-pill inactive">비활성</span></td><td><button class="del-btn" type="button">삭제</button></td></tr>
     </tbody>
   </table>
+  </div>
 
   <div class="add-box">
     <h2>수신자 추가</h2>

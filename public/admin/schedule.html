@@ -38,6 +38,13 @@
   .switch input:checked ~ .thumb { transform:translateX(20px); }
   #saveBtn { background:var(--accent); color:var(--bg); border:none; padding:12px 24px; border-radius:10px; font-weight:700; font-size:14px; }
   #saved { font-size:14px; font-weight:600; color:var(--green); margin-left:16px; visibility:hidden; }
+
+  @media (max-width: 700px) {
+    nav { padding:14px 16px; }
+    .subnav { padding:10px 16px; gap:16px; }
+    main { padding:20px 16px; }
+    .radio-group { flex-wrap: wrap; gap:14px; }
+  }
 </style>
 </head>
 <body>

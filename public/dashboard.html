@@ -59,6 +59,18 @@
   .inv-bar-fill { height: 9px; border-radius: 999px; }
   .inv-value { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; }
   .footnote { font-size: 10px; color: var(--foot); text-align: center; }
+
+  @media (max-width: 700px) {
+    nav { padding: 14px 16px; }
+    nav .brand { font-size: 17px; }
+    nav .tabs { gap: 18px; }
+    nav .tabs a { font-size: 13px; padding-bottom: 12px; }
+    main { padding: 20px 16px; gap: 16px; }
+    .meta-row { width: 100%; max-width: 420px; }
+    .grid { width: 100%; max-width: 420px; grid-template-columns: 1fr; grid-template-rows: none; gap: 16px; }
+    .card, .card.tall, .card.short { width: 100%; height: auto; }
+    .card svg { max-width: 100%; height: auto; }
+  }
 </style>
 </head>
 <body>
