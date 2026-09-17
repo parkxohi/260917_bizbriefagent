@@ -6,9 +6,10 @@
       "title": "Vercel 프로젝트 스캐폴딩 + Cron 설정",
       "category": "infra",
       "priority": "high",
-      "status": "todo",
+      "status": "done",
       "deps": [],
-      "done_when": "package.json, vercel.json(crons 08:00) 생성 및 로컬에서 구조 확인"
+      "done_when": "package.json, vercel.json(crons 08:00) 생성 및 로컬에서 구조 확인",
+      "note": "package.json, vercel.json(cron 08:00 KST=23:00 UTC), .gitignore, .env.example 생성"
     },
     {
       "id": "data-lib",
@@ -16,7 +17,9 @@
       "category": "backend",
       "priority": "high",
       "status": "todo",
-      "deps": ["vercel-setup"],
+      "deps": [
+        "vercel-setup"
+      ],
       "done_when": "sales/production/capa/inventory json을 읽어 구조화된 객체로 반환하는 함수 작성"
     },
     {
@@ -25,7 +28,9 @@
       "category": "backend",
       "priority": "high",
       "status": "todo",
-      "deps": ["data-lib"],
+      "deps": [
+        "data-lib"
+      ],
       "done_when": "4개 KPI % 계산과 과제정의서에 명시된 임계값(±5%p, 90%, 5%) 판정 함수 작성, 데이터-로직 분리 준수"
     },
     {
@@ -34,7 +39,9 @@
       "category": "backend",
       "priority": "high",
       "status": "todo",
-      "deps": ["kpi-logic"],
+      "deps": [
+        "kpi-logic"
+      ],
       "done_when": "Final.dc.html 디자인(블랙골드)을 kpi-logic 결과 기반으로 동적 생성하는 HTML 문자열 함수 작성"
     },
     {
@@ -43,7 +50,9 @@
       "category": "backend",
       "priority": "high",
       "status": "todo",
-      "deps": ["email-template"],
+      "deps": [
+        "email-template"
+      ],
       "done_when": "SMTP 앱 비밀번호로 실제 발송 가능한 서버리스 함수 작성, .env.example 포함, 로컬 스크립트로 수동 발송 테스트 가능"
     },
     {
@@ -52,7 +61,9 @@
       "category": "frontend",
       "priority": "medium",
       "status": "todo",
-      "deps": ["kpi-logic"],
+      "deps": [
+        "kpi-logic"
+      ],
       "done_when": "Dashboard.dc.html 디자인을 접근성 원칙(실제 button/label) 지켜 정적 페이지로 포팅"
     },
     {
@@ -61,7 +72,9 @@
       "category": "frontend",
       "priority": "low",
       "status": "todo",
-      "deps": ["send-api"],
+      "deps": [
+        "send-api"
+      ],
       "done_when": "발송하기/발송스케줄/수신처관리 3개 화면을 실제 정적 페이지로 포팅, 발송하기는 send-api 연동"
     },
     {
@@ -70,7 +83,9 @@
       "category": "backend",
       "priority": "low",
       "status": "todo",
-      "deps": ["mail-admin-pages"],
+      "deps": [
+        "mail-admin-pages"
+      ],
       "done_when": "recipients 테이블 스키마 정의 및 클라이언트 연결 코드 작성 (실 데이터 마이그레이션은 사용자 선택)"
     }
   ]
