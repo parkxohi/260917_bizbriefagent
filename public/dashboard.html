@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>경영정보 대시보드 - Biz Insight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1C1917; --card: #262220; --border: #3A3530;
+    --text: #F5F1EA; --muted: #A89F92; --foot: #78716C;
+    --accent: #F5B942; --amber: #F5B942; --green: #22C55E; --red: #F87171;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif; }
+  .num { font-family: 'Space Grotesk', system-ui, sans-serif; }
+  a { text-decoration: none; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid var(--border); }
+  nav .brand { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--accent); }
+  nav .tabs { display: flex; gap: 32px; }
+  nav .tabs a { font-size: 14px; font-weight: 600; color: var(--foot); padding-bottom: 18px; border-bottom: 2px solid transparent; }
+  nav .tabs a[aria-current="page"] { font-weight: 700; color: var(--accent); border-bottom-color: var(--accent); }
+  main { padding: 32px 40px; display: flex; flex-direction: column; gap: 22px; align-items: center; }
+  .meta-row { width: 664px; display: flex; justify-content: flex-end; }
+  .meta-row span { font-size: 12px; color: var(--foot); }
+  .grid { width: 664px; display: grid; grid-template-columns: 320px 320px; grid-template-rows: 320px 320px; gap: 24px; }
+  .card { width: 320px; height: 320px; border-radius: 18px; background: var(--card); border: 1px solid var(--border); padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; }
+  .card-head h2 { margin: 0; font-size: 18px; font-weight: 700; }
+  .badge { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; }
+  .badge.normal { background: rgba(34,197,94,0.15); color: var(--green); }
+  .badge.warn { background: rgba(245,185,66,0.15); color: var(--amber); }
+  .badge.danger { background: rgba(239,68,68,0.15); color: var(--red); }
+  .as-of { font-size: 10px; color: var(--foot); }
+  .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: auto; }
+  .tag { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; background: rgba(245,185,66,0.12); color: var(--amber); }
+  .donut-row { display: flex; align-items: center; gap: 12px; }
+  .donut-num { font-size: 27px; font-weight: 700; }
+  .donut-caption { font-size: 10.5px; color: var(--muted); line-height: 1.4; }
+  .inv-row { display: flex; align-items: center; gap: 8px; }
+  .inv-row .name { width: 74px; font-size: 10.5px; color: var(--muted); }
+  .inv-bar-track { flex-grow: 1; height: 9px; border-radius: 999px; background: var(--border); }
+  .inv-bar-fill { height: 9px; border-radius: 999px; }
+  .inv-value { padding: 3px 8px; border-radius: 6px; font-size: 10.5px; font-weight: 700; }
+  .footnote { font-size: 10px; color: var(--foot); text-align: center; margin-top: auto; }
+</style>
+</head>
+<body>
+<h1 class="sr-only">경영정보 대시보드</h1>
+<nav aria-label="주 메뉴">
+  <span class="brand">Biz Insight</span>
+  <span class="tabs">
+    <a href="dashboard.html" aria-current="page">경영정보 대시보드</a>
+    <a href="admin/send.html">메일링</a>
+  </span>
+</nav>
+<main>
+  <div class="meta-row"><span id="asOf" class="num"></span></div>
+  <div class="grid" id="grid" aria-busy="true">불러오는 중...</div>
+</main>
+
+<script>
+const DAYS_IN_MONTH = 30;
+const ELAPSED = 16;
+const STANDARD_PCT = (ELAPSED / DAYS_IN_MONTH) * 100;
+
+function donutSvg(pct, color, standardPct) {
+  const r = 42, c = 2 * Math.PI * r;
+  const arc = (Math.min(pct, 100) / 100) * c;
+  const angleDeg = (standardPct / 100) * 360 - 90;
+  const rad = (angleDeg * Math.PI) / 180;
+  const x1 = 50 + 34 * Math.cos(rad), y1 = 50 + 34 * Math.sin(rad);
+  const x2 = 50 + 48 * Math.cos(rad), y2 = 50 + 48 * Math.sin(rad);
+  return `<svg width="92" height="92" viewBox="0 0 100 100" role="img" aria-label="진척률 ${pct}%, 표준 ${standardPct.toFixed(1)}%">
+    <circle cx="50" cy="50" r="${r}" fill="none" stroke="var(--border)" stroke-width="11"/>
+    <circle cx="50" cy="50" r="${r}" fill="none" stroke="${color}" stroke-width="11" stroke-linecap="round" stroke-dasharray="${arc.toFixed(1)} ${c.toFixed(1)}" transform="rotate(-90 50 50)"/>
+    <line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="#F5F1EA" stroke-width="2.5" stroke-linecap="round"/>
+  </svg>`;
+}
+
+function trendSvg(trend) {
+  const labels = ["D-2", "D-1", "D-0"];
+  const bars = trend.map((t, i) => {
+    const h = Math.max(4, Math.min(t.pct, 130) * 0.3);
+    const x = 20 + i * 54;
+    const y = 55 - h;
+    const isLast = i === trend.length - 1;
+    return `<rect x="${x}" y="${y.toFixed(1)}" width="34" height="${h.toFixed(1)}" rx="4" fill="${isLast ? '#F5B942' : '#57534E'}"/>
+      <text x="${x + 17}" y="${(y - 4).toFixed(1)}" text-anchor="middle" fill="${isLast ? '#F5F1EA' : '#A89F92'}" font-size="10" font-weight="${isLast ? 700 : 400}">${t.pct}%</text>
+      <text x="${x + 17}" y="66" text-anchor="middle" fill="${isLast ? '#F5B942' : '#78716C'}" font-size="9.5" font-weight="${isLast ? 700 : 400}">${labels[i]}</text>`;
+  }).join("");
+  return `<svg width="276" height="52" viewBox="0 0 200 70" role="img" aria-label="최근 3일 일별 달성률 추이">${bars}</svg>`;
+}
+
+function statusOf(pct, deviation, threshold) {
+  return Math.abs(deviation) > threshold ? "warn" : "normal";
+}
+
+function renderSalesCard(sales, trend) {
+  const anomalies = sales.filter((s) => s.isAnomaly);
+  const badgeClass = anomalies.length ? "warn" : "normal";
+  const badgeLabel = anomalies.length ? "주의" : "정상";
+  const worst = anomalies[0] || sales[0];
+  return `
+    <div class="card">
+      <div class="card-head"><h2>판매진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
+      <span class="as-of num">데이터 기준일 2026-09-16</span>
+      <div class="donut-row">
+        ${donutSvg(worst.pct, "#F5B942", STANDARD_PCT)}
+        <div>
+          <div class="donut-num num">${worst.pct}%</div>
+          <div class="donut-caption">┃ 표준 ${STANDARD_PCT.toFixed(1)}% 대비<br>${worst.deviationPp}%p</div>
+        </div>
+      </div>
+      ${trendSvg(trend)}
+      <div class="tag-row">
+        ${anomalies.map((a) => `<span class="tag">${a.product} · 주의</span>`).join("")}
+      </div>
+    </div>`;
+}
+
+function renderProductionCard(production, trend) {
+  const anomalies = production.filter((p) => p.isAnomaly);
+  const badgeClass = anomalies.length ? "warn" : "normal";
+  const badgeLabel = anomalies.length ? "주의" : "정상";
+  const worst = anomalies[0] || production[0];
+  return `
+    <div class="card">
+      <div class="card-head"><h2>생산진척률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
+      <span class="as-of num">데이터 기준일 2026-09-16</span>
+      <div class="donut-row">
+        ${donutSvg(worst.pct, "#F5B942", STANDARD_PCT)}
+        <div>
+          <div class="donut-num num">${worst.pct}%</div>
+          <div class="donut-caption">┃ 표준 ${STANDARD_PCT.toFixed(1)}% 대비<br>${worst.deviationPp}%p</div>
+        </div>
+      </div>
+      ${trendSvg(trend)}
+      <div class="tag-row">
+        ${anomalies.map((a) => `<span class="tag">${a.product_type} · 주의</span>`).join("")}
+      </div>
+    </div>`;
+}
+
+function renderCapaCard(capa) {
+  const anomalies = capa.filter((c) => c.isAnomaly);
+  // 전체 배지는 "라인 대부분 정상"을 나타내고, 문제 라인은 아래 태그로 개별 표시한다.
+  const allAnomalous = anomalies.length === capa.length;
+  const badgeClass = allAnomalous ? "warn" : "normal";
+  const badgeLabel = allAnomalous ? "주의" : "정상";
+  const bars = capa.map((c, i) => {
+    const h = Math.max(4, c.pct * 1.2);
+    const x = 24 + i * 83;
+    const y = 130 - h;
+    const color = c.isAnomaly ? "#F5B942" : "#22C55E";
+    return `<rect x="${x}" y="${y.toFixed(1)}" width="46" height="${h.toFixed(1)}" rx="6" fill="${color}"/>
+      <text x="${x + 23}" y="${(y - 8).toFixed(1)}" text-anchor="middle" fill="#F5F1EA" class="num" font-size="13" font-weight="700">${c.pct}%</text>
+      <text x="${x + 23}" y="143" text-anchor="middle" fill="#A89F92" font-size="11">${c.line}</text>`;
+  }).join("");
+  return `
+    <div class="card">
+      <div class="card-head"><h2>CAPA 가동률</h2><span class="badge ${badgeClass}">${badgeLabel}</span></div>
+      <span class="as-of num">데이터 기준일 2026-09-16 · 라인별</span>
+      <svg width="276" height="148" viewBox="0 0 260 150" role="img" aria-label="라인별 CAPA 가동률">
+        <line x1="0" y1="40" x2="260" y2="40" stroke="#44403C" stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="255" y="36" text-anchor="end" fill="#78716C" font-size="9">기준 90%</text>
+        ${bars}
+      </svg>
+      <div class="tag-row">
+        ${anomalies.map((a) => `<span class="tag">${a.line} · 주의</span>`).join("")}
+      </div>
+    </div>`;
+}
+
+function renderInventoryCard(inventoryIssues) {
+  const top = inventoryIssues.slice(0, 4);
+  const rows = top.map((p) => {
+    const danger = p.pct >= 10;
+    const color = danger ? "#F87171" : "#F5B942";
+    const label = danger ? "위험" : "주의";
+    const bgClass = danger ? "rgba(239,68,68,0.15)" : "rgba(245,185,66,0.15)";
+    const width = Math.min(100, (p.pct / 16) * 100);
+    return `<div class="inv-row">
+      <span class="name">${p.product}</span>
+      <span class="inv-bar-track"><span class="inv-bar-fill" style="width:${width.toFixed(0)}%; background:${color};"></span></span>
+      <span class="inv-value num" style="background:${bgClass}; color:${color};">${p.pct}% ${label}</span>
+    </div>`;
+  }).join("");
+  return `
+    <div class="card">
+      <div class="card-head"><h2>부진재고현황</h2><span class="badge danger">위험</span></div>
+      <span class="as-of num">데이터 기준일 2026-09-16 · 상위 4개</span>
+      <div style="display:flex; flex-direction:column; gap:11px; margin-top:2px;">${rows}</div>
+      <span class="footnote">기준(5%) 초과 ${inventoryIssues.length}개 제품 중 상위 4개</span>
+    </div>`;
+}
+
+async function load() {
+  const res = await fetch("/api/briefing");
+  const b = await res.json();
+  document.getElementById("asOf").textContent = `${b.referenceDate.replaceAll("-", ".")} 생성`;
+  const grid = document.getElementById("grid");
+  grid.setAttribute("aria-busy", "false");
+  grid.innerHTML =
+    renderSalesCard(b.sales, b.dailyTrend.sales) +
+    renderProductionCard(b.production, b.dailyTrend.production) +
+    renderCapaCard(b.capa) +
+    renderInventoryCard(b.issues.inventory);
+}
+load().catch((err) => {
+  document.getElementById("grid").textContent = "데이터를 불러오지 못했습니다: " + err.message;
+});
+</script>
+</body>
+</html>

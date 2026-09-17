@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>발송 스케줄 관리 - Biz Insight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#1C1917; --card:#262220; --sub:#211D19; --border:#3A3530; --text:#F5F1EA; --muted:#A89F92; --foot:#78716C; --accent:#F5B942; --green:#34D399; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family: system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif; }
+  a { text-decoration:none; }
+  button { font-family:inherit; cursor:pointer; }
+  nav { display:flex; justify-content:space-between; align-items:center; padding:20px 44px; border-bottom:1px solid var(--border); }
+  nav .brand { font-family:'Space Grotesk', sans-serif; font-size:20px; font-weight:700; color:var(--accent); }
+  nav .tabs a { font-size:14px; font-weight:600; color:var(--foot); padding-bottom:18px; border-bottom:2px solid transparent; margin-left:32px; }
+  nav .tabs a[aria-current="page"] { color:var(--accent); font-weight:700; border-bottom-color:var(--accent); }
+  .subnav { display:flex; gap:24px; padding:14px 44px; background:var(--sub); border-bottom:1px solid var(--border); }
+  .subnav a { font-size:13px; font-weight:500; color:var(--foot); }
+  .subnav a[aria-current="page"] { color:var(--accent); font-weight:700; }
+  main { padding:36px 44px; max-width:620px; display:flex; flex-direction:column; gap:28px; }
+  h1 { font-size:22px; margin:0; }
+  fieldset { border:none; padding:0; margin:0; display:flex; flex-direction:column; gap:12px; }
+  legend { font-weight:700; font-size:14px; color:var(--muted); padding:0; margin-bottom:4px; }
+  .radio-group { display:flex; gap:24px; }
+  .radio-group label { font-size:14px; display:flex; align-items:center; gap:8px; }
+  input[type="radio"] { accent-color: var(--accent); width:16px; height:16px; }
+  input[type="time"] { background:var(--card); color:var(--text); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:14px; width:140px; }
+  .status-row { display:flex; align-items:center; justify-content:space-between; border:1px solid var(--border); border-radius:12px; padding:16px 20px; background:var(--card); }
+  .status-row .label { font-weight:600; font-size:14px; }
+  .status-row .hint { font-size:12px; color:var(--foot); }
+  .switch { position:relative; width:44px; height:24px; }
+  .switch input { opacity:0; width:44px; height:24px; margin:0; position:absolute; cursor:pointer; z-index:1; }
+  .switch .track { position:absolute; inset:0; background:var(--border); border-radius:999px; }
+  .switch .thumb { position:absolute; top:2px; left:2px; width:20px; height:20px; background:var(--text); border-radius:999px; transition:transform .15s; }
+  .switch input:checked ~ .track { background:var(--accent); }
+  .switch input:checked ~ .thumb { transform:translateX(20px); }
+  #saveBtn { background:var(--accent); color:var(--bg); border:none; padding:12px 24px; border-radius:10px; font-weight:700; font-size:14px; }
+  #saved { font-size:14px; font-weight:600; color:var(--green); margin-left:16px; visibility:hidden; }
+</style>
+</head>
+<body>
+<nav aria-label="주 메뉴">
+  <span class="brand">Biz Insight</span>
+  <span class="tabs"><a href="../dashboard.html">경영정보 대시보드</a><a href="send.html" aria-current="page">메일링</a></span>
+</nav>
+<div class="subnav">
+  <a href="send.html">발송하기</a>
+  <a href="schedule.html" aria-current="page">발송 스케줄</a>
+  <a href="recipients.html">수신처 관리</a>
+</div>
+<main>
+  <h1>발송 스케줄 관리</h1>
+
+  <fieldset>
+    <legend>발송 주기</legend>
+    <div class="radio-group">
+      <label><input type="radio" name="freq" checked> 매일</label>
+      <label><input type="radio" name="freq"> 월·수·금</label>
+      <label><input type="radio" name="freq"> 직접 선택</label>
+    </div>
+  </fieldset>
+
+  <div>
+    <label for="send-time" style="font-weight:700; font-size:14px; color:var(--muted); display:block; margin-bottom:12px;">발송 시각</label>
+    <input type="time" id="send-time" value="08:00">
+  </div>
+
+  <div class="status-row">
+    <div>
+      <div class="label">발송 상태</div>
+      <div class="hint">중지하면 예약된 발송이 진행되지 않습니다.</div>
+    </div>
+    <span class="switch">
+      <input type="checkbox" id="active-toggle" checked aria-label="발송 사용 여부">
+      <span class="track"></span>
+      <span class="thumb"></span>
+    </span>
+  </div>
+
+  <div style="display:flex; align-items:center;">
+    <button id="saveBtn" type="button">변경사항 저장</button>
+    <span id="saved" role="status" aria-live="polite">✓ 저장되었습니다</span>
+  </div>
+</main>
+<script>
+document.getElementById("saveBtn").addEventListener("click", () => {
+  const saved = document.getElementById("saved");
+  saved.style.visibility = "visible";
+  setTimeout(() => { saved.style.visibility = "hidden"; }, 2500);
+});
+</script>
+</body>
+</html>

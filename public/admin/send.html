@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>메일링 발송하기 - Biz Insight</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#1C1917; --card:#262220; --sub:#211D19; --border:#3A3530; --text:#F5F1EA; --muted:#A89F92; --foot:#78716C; --accent:#F5B942; --green:#34D399; --red:#F87171; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family: system-ui, -apple-system, 'Apple SD Gothic Neo', sans-serif; }
+  .num { font-family:'Space Grotesk', system-ui, sans-serif; }
+  a { text-decoration:none; }
+  button { font-family:inherit; cursor:pointer; }
+  nav { display:flex; justify-content:space-between; align-items:center; padding:20px 44px; border-bottom:1px solid var(--border); }
+  nav .brand { font-family:'Space Grotesk', sans-serif; font-size:20px; font-weight:700; color:var(--accent); }
+  nav .tabs a { font-size:14px; font-weight:600; color:var(--foot); padding-bottom:18px; border-bottom:2px solid transparent; margin-left:32px; }
+  nav .tabs a[aria-current="page"] { color:var(--accent); font-weight:700; border-bottom-color:var(--accent); }
+  .subnav { display:flex; gap:24px; padding:14px 44px; background:var(--sub); border-bottom:1px solid var(--border); }
+  .subnav a { font-size:13px; font-weight:500; color:var(--foot); }
+  .subnav a[aria-current="page"] { color:var(--accent); font-weight:700; }
+  main { padding:36px 44px; max-width:700px; }
+  h1 { margin:0 0 8px; font-size:22px; }
+  p.desc { margin:0 0 28px; font-size:14px; color:var(--muted); line-height:1.6; }
+  #sendBtn { background:var(--accent); color:var(--bg); border:none; padding:14px 28px; border-radius:10px; font-weight:700; font-size:15px; }
+  #sendBtn:disabled { opacity:0.6; cursor:progress; }
+  #status { margin-left:16px; font-size:14px; font-weight:600; }
+  #status.ok { color:var(--green); }
+  #status.error { color:var(--red); }
+  .send-row { display:flex; align-items:center; margin-bottom:28px; }
+  hr { border:none; height:1px; background:var(--border); margin-bottom:24px; }
+  h2 { font-size:14px; color:var(--muted); margin:0 0 10px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  td { padding:12px 0; border-bottom:1px solid var(--border); }
+</style>
+</head>
+<body>
+<h1 class="sr-only" style="position:absolute; width:1px; height:1px; overflow:hidden;">메일링 - 발송하기</h1>
+<nav aria-label="주 메뉴">
+  <span class="brand">Biz Insight</span>
+  <span class="tabs"><a href="../dashboard.html">경영정보 대시보드</a><a href="send.html" aria-current="page">메일링</a></span>
+</nav>
+<div class="subnav">
+  <a href="send.html" aria-current="page">발송하기</a>
+  <a href="schedule.html">발송 스케줄</a>
+  <a href="recipients.html">수신처 관리</a>
+</div>
+<main>
+  <h1 style="font-size:22px; margin:0 0 8px;">Daily Briefing 발송</h1>
+  <p class="desc">아래 버튼을 클릭하면 오늘의 Biz Briefing 이메일이 등록된 수신자 전원에게 실제로 발송됩니다.</p>
+
+  <div class="send-row">
+    <button id="sendBtn" type="button">지금 발송하기 ▶</button>
+    <span id="status" role="status" aria-live="polite"></span>
+  </div>
+
+  <hr>
+  <h2>최근 발송 이력</h2>
+  <table>
+    <tbody id="history">
+      <tr><td>2026-09-16 (수) 08:00</td><td style="color:var(--green); font-weight:600;">발송완료</td><td style="color:var(--foot);">수신 4명</td></tr>
+      <tr><td>2026-09-15 (화) 08:00</td><td style="color:var(--green); font-weight:600;">발송완료</td><td style="color:var(--foot);">수신 4명</td></tr>
+      <tr><td>2026-09-14 (월) 08:00</td><td style="color:var(--green); font-weight:600;">발송완료</td><td style="color:var(--foot);">수신 4명</td></tr>
+    </tbody>
+  </table>
+</main>
+<script>
+document.getElementById("sendBtn").addEventListener("click", async () => {
+  const btn = document.getElementById("sendBtn");
+  const status = document.getElementById("status");
+  btn.disabled = true;
+  status.textContent = "발송 중...";
+  status.className = "";
+  try {
+    const res = await fetch("/api/send-daily-briefing", { method: "POST" });
+    const data = await res.json();
+    if (data.ok) {
+      status.textContent = `✓ 발송 완료 · 수신 ${data.recipients.length}명`;
+      status.className = "ok";
+      const row = document.createElement("tr");
+      const now = new Date();
+      row.innerHTML = `<td>${now.toISOString().slice(0, 16).replace("T", " ")}</td><td style="color:var(--green); font-weight:600;">발송완료</td><td style="color:var(--foot);">수신 ${data.recipients.length}명</td>`;
+      document.getElementById("history").prepend(row);
+    } else {
+      status.textContent = "✗ " + data.error;
+      status.className = "error";
+    }
+  } catch (err) {
+    status.textContent = "✗ " + err.message;
+    status.className = "error";
+  } finally {
+    btn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>

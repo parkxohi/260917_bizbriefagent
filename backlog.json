@@ -64,22 +64,24 @@
       "title": "경영정보 대시보드 실제 페이지 (public/dashboard.html)",
       "category": "frontend",
       "priority": "medium",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "kpi-logic"
       ],
-      "done_when": "Dashboard.dc.html 디자인을 접근성 원칙(실제 button/label) 지켜 정적 페이지로 포팅"
+      "done_when": "Dashboard.dc.html 디자인을 접근성 원칙(실제 button/label) 지켜 정적 페이지로 포팅",
+      "note": "public/dashboard.html 작성, api/briefing.js 추가, 로컬 dev-server로 실제 브라우저 렌더링 확인 완료(donut/기준선/D-2~D-0/CAPA바차트/재고랭킹 모두 정상)"
     },
     {
       "id": "mail-admin-pages",
       "title": "메일링 관리 화면 실제 페이지 (public/admin/*.html)",
       "category": "frontend",
       "priority": "low",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "send-api"
       ],
-      "done_when": "발송하기/발송스케줄/수신처관리 3개 화면을 실제 정적 페이지로 포팅, 발송하기는 send-api 연동"
+      "done_when": "발송하기/발송스케줄/수신처관리 3개 화면을 실제 정적 페이지로 포팅, 발송하기는 send-api 연동",
+      "note": "public/admin/send.html(실제 API 연동, 자격증명 없어 예상된 오류 정상 표시 확인),schedule.html,recipients.html 작성 및 브라우저 확인 완료"
     },
     {
       "id": "supabase-setup",
