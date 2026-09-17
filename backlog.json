@@ -87,6 +87,33 @@
         "mail-admin-pages"
       ],
       "done_when": "recipients 테이블 스키마 정의 및 클라이언트 연결 코드 작성 (실 데이터 마이그레이션은 사용자 선택)"
+    },
+    {
+      "id": "wrap-up-summary",
+      "title": "개발 마무리 후 전체 정리",
+      "category": "docs",
+      "priority": "medium",
+      "status": "todo",
+      "deps": ["mail-admin-pages"],
+      "done_when": "과제정의서에 최종 구조/실행방법/남은 이슈 정리, README 작성"
+    },
+    {
+      "id": "presentation-deck",
+      "title": "발표자료 구성",
+      "category": "docs",
+      "priority": "medium",
+      "status": "todo",
+      "deps": ["wrap-up-summary"],
+      "done_when": "capstone 발표용 슬라이드/자료 초안 완성"
+    },
+    {
+      "id": "demo-script-test",
+      "title": "시연 스크립트 작성 + 시연 테스트",
+      "category": "docs",
+      "priority": "medium",
+      "status": "todo",
+      "deps": ["wrap-up-summary"],
+      "done_when": "발표 시연 순서(멘트 포함) 스크립트 작성 후 실제로 버튼 클릭~메일함 확인까지 리허설 완료"
     }
   ]
 }
