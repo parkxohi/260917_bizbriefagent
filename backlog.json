@@ -52,11 +52,12 @@
       "title": "발송 API + Nodemailer 연동 (api/send-daily-briefing.js)",
       "category": "backend",
       "priority": "high",
-      "status": "todo",
+      "status": "done",
       "deps": [
         "email-template"
       ],
-      "done_when": "SMTP 앱 비밀번호로 실제 발송 가능한 서버리스 함수 작성, .env.example 포함, 로컬 스크립트로 수동 발송 테스트 가능"
+      "done_when": "SMTP 앱 비밀번호로 실제 발송 가능한 서버리스 함수 작성, .env.example 포함, 로컬 스크립트로 수동 발송 테스트 가능",
+      "note": "lib/mailer.js, lib/briefing.js, api/send-daily-briefing.js, scripts/send-now.js 작성. 실제 Gmail 앱 비밀번호 없이 dry-run해서 데이터~템플릿 파이프라인은 정상 동작, 발송 단계에서만 예상대로 실패 확인"
     },
     {
       "id": "dashboard-page",
