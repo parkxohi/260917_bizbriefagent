@@ -88,11 +88,12 @@
       "title": "Supabase 수신처 테이블 (선택)",
       "category": "backend",
       "priority": "low",
-      "status": "todo",
+      "status": "deferred",
       "deps": [
         "mail-admin-pages"
       ],
-      "done_when": "recipients 테이블 스키마 정의 및 클라이언트 연결 코드 작성 (실 데이터 마이그레이션은 사용자 선택)"
+      "done_when": "recipients 테이블 스키마 정의 및 클라이언트 연결 코드 작성 (실 데이터 마이그레이션은 사용자 선택)",
+      "note": "MVP 데모에는 불필요 판단(수신자 4명 고정, 화면에서 추가/삭제는 이미 동작). 실제 구현 대신 발표자료에 '적용 예정' 로드맵 항목으로 남기기로 결정(2026-09-17)"
     },
     {
       "id": "wrap-up-summary",
